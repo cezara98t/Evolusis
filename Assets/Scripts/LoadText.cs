@@ -17,20 +17,17 @@ public class LoadText : MonoBehaviour
         public string food;
         public string construction;
     }
-    // Start is called before the first frame update
+
+
     void Start()
-    {     //string androidPath = "jar:file://" + Application.dataPath + "!/assets/json/first.json";
-        string file = Resources.Load("first.json").ToString();
-       // string content = file.ToString();
-       // jsonText = JsonConvert.DeserializeObject<Texts>(content);
-        infoText.text = file;
-         //  jsonText = JsonConvert.DeserializeObject<Texts>(File.ReadAllText(androidPath));
-        //@"assets/jsons/first.json"
+    {
+        TextAsset t = Resources.Load<TextAsset>("Jsons/first");
+        jsonText = JsonConvert.DeserializeObject<Texts>(t.ToString());
 
     }
 
     public void showHealth() {
-        infoText.text = jsonText.health;
+       infoText.text = jsonText.health;
     }
 
     public void showFood() {
