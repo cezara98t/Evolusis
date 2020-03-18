@@ -12,30 +12,46 @@ public class LoadText : MonoBehaviour
 
     Texts jsonText;
 
+    private bool first = true;
+
     class Texts {
        public string health;
         public string food;
         public string construction;
     }
 
-
-    void Start()
-    {
-        TextAsset t = Resources.Load<TextAsset>("Jsons/first");
-        jsonText = JsonConvert.DeserializeObject<Texts>(t.ToString());
-
-    }
-
     public void showHealth() {
+        if (first == true)
+        {
+            first = false;
+            readJson();
+        }
        infoText.text = jsonText.health;
     }
 
     public void showFood() {
+        if (first == true)
+        {
+            first = false;
+            readJson();
+        }
         infoText.text = jsonText.food;
     }
 
-    public void showConstruction() {
+    public void showConstruction(){
+        if (first == true)
+        {
+            first = false;
+            readJson();
+        }
         infoText.text = jsonText.construction;
     }
+
+    private void readJson() {
+        string path = "Jsons/" + GameData.mainPanel.name + "/info";
+        TextAsset t = Resources.Load<TextAsset>(path);
+        jsonText = JsonConvert.DeserializeObject<Texts>(t.ToString());
+    }
+
 
 }

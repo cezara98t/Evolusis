@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        GameData.mainPanel = mainPanel;
         return_button = eraInfo.transform.Find("return_button").gameObject;
         qmark_button = eraInfo.transform.Find("qmark_button").gameObject;
         return_button.SetActive(false);
@@ -24,6 +25,7 @@ public class UIManager : MonoBehaviour
         mainPanel.SetActive(false);
         jobPanel.SetActive(true);
         currentJobPanel = jobPanel;
+        GameData.currentJobPanel = jobPanel;
         return_button.SetActive(true);
         qmark_button.SetActive(true);
     }
@@ -33,6 +35,7 @@ public class UIManager : MonoBehaviour
         mainPanel.SetActive(true);
         return_button.SetActive(false);
         qmark_button.SetActive(false);
+        GameData.currentJobPanel = null;
     }
 
     public void showHelpArrow() {
