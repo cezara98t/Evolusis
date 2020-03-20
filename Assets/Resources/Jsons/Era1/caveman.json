@@ -1,0 +1,30 @@
+[
+{
+	text:"Construieste corturi",
+	subtext:"Ai nevoie de 10 mancare, 20 resurse.",
+	requested_ability:"",
+	requested_ability_percentage:0.0,
+	affected_food:-10,
+	affected_resources:-20,
+	affected_people:20,
+	bad_message:"",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Cauta resurse",
+	subtext:"Ai nevoie de 5 mancare.",
+	requested_ability:"strenght",
+	requested_ability_percentage:0.4,
+	affected_food:-5,
+	affected_resources:50,
+	affected_people:0,
+	bad_message:"Oamenii nu erau destul de puternici. Au murit 5.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:5,
+	affected_chromozome:null
+}
+]

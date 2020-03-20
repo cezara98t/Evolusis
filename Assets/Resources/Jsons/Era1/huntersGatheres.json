@@ -1,0 +1,29 @@
+[
+{
+	text:"Vaneaza un mamut",
+	subtext:"",
+	requested_ability:"patience",
+	requested_ability_percentage:0.3,
+	affected_food:70,
+	affected_resources:0,
+	affected_people:0,
+	bad_message:"Mamutul era prea puternic. Au murit 10 oameni.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:10,
+	affected_chromozome:null
+},
+{
+	text:"Vaneaza iepuri",
+	subtext:"",
+	requested_ability:"agility",
+	requested_ability_percentage:0.3,
+	affected_food:50,
+	affected_resources:0,
+	affected_people:0,
+	bad_message:"Cine alearga dupa doi iepuri, nu prinde niciunul.\n Iepurii erau prea agili.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+}]

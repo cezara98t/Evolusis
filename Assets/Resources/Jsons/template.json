@@ -1,0 +1,14 @@
+[{
+	text:"",
+	subtext:"",
+	requested_ability:"",
+	requested_ability_percentage:0.0,
+	affected_food:0,
+	affected_resources:0,
+	affected_people:0,
+	bad_message:"",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+}]
