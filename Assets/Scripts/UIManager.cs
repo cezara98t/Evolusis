@@ -19,8 +19,16 @@ public class UIManager : MonoBehaviour
         qmark_button = eraInfo.transform.Find("qmark_button").gameObject;
         return_button.SetActive(false);
         qmark_button.SetActive(false);
-
     }
+
+    private void Update()
+    {
+        lifeInfo.transform.Find("population").GetComponent<Text>().text = GameData.population_size.ToString();
+        lifeInfo.transform.Find("food").GetComponent<Text>().text = GameData.food.ToString();
+        lifeInfo.transform.Find("resources").GetComponent<Text>().text = GameData.resources.ToString();
+    }
+
+
     public void mainToJob(GameObject jobPanel) {
         mainPanel.SetActive(false);
         jobPanel.SetActive(true);
