@@ -99,6 +99,15 @@ public class ActionButtonsManager : MonoBehaviour
         error_panel.SetActive(false);
     }
 
+    public void restoreEnergy() {
+        for (int i=0;i<energy_bar.Length;i++) {
+            Image energy = energy_bar[i].GetComponent<Image>();
+            var tempColor = energy.color;
+            tempColor.a = 1;
+            energy.color = tempColor;
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
