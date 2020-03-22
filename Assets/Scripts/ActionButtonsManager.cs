@@ -10,13 +10,12 @@ public class ActionButtonsManager : MonoBehaviour
 
     public GameObject prefab;
     public GameObject containter;
-    public GameObject[] energy_bar;
     public GameObject error_panel;
 
     private ActionButtonRepository actionButtonRepository;
     private ActionButtonValidator validator;
 
-    // Start is called before the first frame update
+ 
     void Start()
     {
         actionButtonRepository = new ActionButtonRepository();
@@ -54,12 +53,7 @@ public class ActionButtonsManager : MonoBehaviour
         string validated = validator.validate(button);
         if (String.IsNullOrEmpty(validated))
         {
-            GameData.energy--;
-            Image energy = energy_bar[GameData.energy].GetComponent<Image>();
-            var tempColor = energy.color;
-            tempColor.a = 0;
-            energy.color = tempColor;
-
+            EnergyBarManager.Instance.consumeEnergy();
             double chance = Utils.GetRandomDouble();
             if (chance > button.requested_ability_percentage)
             {
@@ -99,18 +93,5 @@ public class ActionButtonsManager : MonoBehaviour
         error_panel.SetActive(false);
     }
 
-    public void restoreEnergy() {
-        for (int i=0;i<energy_bar.Length;i++) {
-            Image energy = energy_bar[i].GetComponent<Image>();
-            var tempColor = energy.color;
-            tempColor.a = 1;
-            energy.color = tempColor;
-        }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

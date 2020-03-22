@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        GameData.mainPanel = mainPanel;
+        loadGame();
         return_button = eraInfo.transform.Find("return_button").gameObject;
         qmark_button = eraInfo.transform.Find("qmark_button").gameObject;
         book_button = eraInfo.transform.Find("info_button").gameObject;            
@@ -35,8 +35,7 @@ public class GameManager : MonoBehaviour
     {
         lifeInfo.transform.Find("population").GetComponent<Text>().text = GameData.population_size.ToString();
         lifeInfo.transform.Find("food").GetComponent<Text>().text = GameData.food.ToString();
-        lifeInfo.transform.Find("resources").GetComponent<Text>().text = GameData.resources.ToString();
-        
+        lifeInfo.transform.Find("resources").GetComponent<Text>().text = GameData.resources.ToString();        
     }
 
 
@@ -48,6 +47,8 @@ public class GameManager : MonoBehaviour
         return_button.SetActive(true);
         qmark_button.SetActive(true);
         book_button.SetActive(false);
+
+        SoundManager.Instance.playJobSound(currentJobPanel.name);
     }
 
     public void jobToMain() {
@@ -57,6 +58,8 @@ public class GameManager : MonoBehaviour
         qmark_button.SetActive(false);
         book_button.SetActive(true);
         GameData.currentJobPanel = null;
+
+        SoundManager.Instance.stopJobSound();
     }
 
     public void showHelpArrow() {
@@ -66,11 +69,49 @@ public class GameManager : MonoBehaviour
     public void endEra() {
         endOfEraPanel.SetActive(true);
         GameData.restoreEnergy();
-        actionButtonsManager.restoreEnergy();
+        EnergyBarManager.Instance.refreshEnergy();
         if(currentJobPanel!=null) jobToMain();
+        GameData.currentMainPanelIndex++;
+        changeMainPanel();
+    }
+
+    //schimba main-ul curent cu cel de la indexul din GameData
+    public void changeMainPanel()
+    {
         mainPanel.SetActive(false);
-        if(GameData.currentMainPanelIndex<mainPanels.Length)
-            mainPanel = mainPanels[GameData.currentMainPanelIndex++];
+        if (GameData.currentMainPanelIndex < mainPanels.Length)
+            mainPanel = mainPanels[GameData.currentMainPanelIndex];
         mainPanel.SetActive(true);
     }
+
+
+
+
+    public void saveGame()
+    {
+        GameData.saveGame();
+    }
+
+    public void loadGame()
+    {
+        GameData.mainPanel = mainPanels[GameData.currentMainPanelIndex];
+        mainPanel = GameData.mainPanel;
+        if (GameData.currentJobPanel != null)
+            jobToMain();
+        GameData.loadGame();
+        changeMainPanel();
+        EnergyBarManager.Instance.refreshEnergy();
+    }
+
+    public void newGame()
+    {
+        GameData.mainPanel = mainPanels[0]; 
+        if (GameData.currentJobPanel != null)
+            jobToMain();
+        GameData.newGame();
+        changeMainPanel();
+        EnergyBarManager.Instance.refreshEnergy();
+    }
+
+
 }
