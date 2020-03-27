@@ -24,10 +24,6 @@ public class EnergyBarManager : MonoBehaviour
     }
     public static EnergyBarManager Instance { get { return _instance; } }
 
-    private void Start()
-    {
-        energy_status_text.text = "20/20";
-    }
 
     public void consumeEnergy()
     {
@@ -59,6 +55,7 @@ public class EnergyBarManager : MonoBehaviour
             energy.color = tempColor;
         }
         energy_status_text.text = GameData.energy+"/20";
+
     }
 
 }

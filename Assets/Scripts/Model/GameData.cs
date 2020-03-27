@@ -13,7 +13,7 @@ class GameData
 
     public static int currentMainPanelIndex = 0;
 
-    public static int population_size=100;
+    public static int population_size = 1000;
     public static int resources=0;
     public static int food=0;
     public static int energy = 20;
@@ -33,7 +33,7 @@ class GameData
     {
         population_size = PlayerPrefs.GetInt("population_size");
         //cand se deschide pentru prima data jocul
-        if (population_size == 0) population_size = 100;
+        if (population_size == 0) population_size = 1000;
         resources = PlayerPrefs.GetInt("resources");
         food = PlayerPrefs.GetInt("food");
         energy = PlayerPrefs.GetInt("energy");
@@ -42,7 +42,7 @@ class GameData
 
     public static void newGame()
     {
-        GameData.population_size = 100;
+        GameData.population_size = 1000;
         GameData.resources = 0;
         GameData.food = 0;
         GameData.energy = 20;

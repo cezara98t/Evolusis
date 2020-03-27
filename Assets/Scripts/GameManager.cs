@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         loadGame();
+        GameData.mainPanel = mainPanels[GameData.currentMainPanelIndex];
         return_button = eraInfo.transform.Find("return_button").gameObject;
         qmark_button = eraInfo.transform.Find("qmark_button").gameObject;
         book_button = eraInfo.transform.Find("info_button").gameObject;            
@@ -80,7 +81,10 @@ public class GameManager : MonoBehaviour
     {
         mainPanel.SetActive(false);
         if (GameData.currentMainPanelIndex < mainPanels.Length)
+        {
             mainPanel = mainPanels[GameData.currentMainPanelIndex];
+            GameData.mainPanel = mainPanel;
+        }
         mainPanel.SetActive(true);
     }
 
