@@ -1,16 +1,30 @@
 [
 {
-	text:"Practica un ritual de fertilitate",
-	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
-	affected_food:0,
-	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	text:"Construieste case",
+	subtext:"Ai nevoie de 50 resurse, 50 mancare.",
+	requested_ability:"strenght",
+	requested_ability_percentage:0.2,
+	affected_food:-50,
+	affected_resources:-50,
+	affected_people:100,
+	bad_message:"Cativa oameni s-au accidentat.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
+	lose_people:-3,
+	affected_chromozome:null
+},
+{
+	text:"Cauta resurse",
+	subtext:"",
+	requested_ability:"strenght",
+	requested_ability_percentage:0.2,
+	affected_food:0,
+	affected_resources:200,
+	affected_people:0,
+	bad_message:"In cautarea resurselor, cativa oameni s-au pierdut.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:-10,
 	affected_chromozome:null
 }
 ]
