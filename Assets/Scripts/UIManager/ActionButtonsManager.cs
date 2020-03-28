@@ -83,6 +83,7 @@ public class ActionButtonsManager : MonoBehaviour
         GameData.food += button.affected_food;
         GameData.resources += button.affected_resources;
         GameData.population_size += button.affected_people;
+       // GameData.housingRepository.add(GameData.currentMainPanelIndex);
     }
 
     private IEnumerator showErrorPanel( string validated){

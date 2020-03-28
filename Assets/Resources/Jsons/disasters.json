@@ -1,0 +1,33 @@
+[{
+	text:"Cutremur",
+	subtext:"Nu e asa grav",
+	affected_food:0,
+	affected_resources:0,
+	affected_people:-10,
+	affected_chromozome:null,
+	min_fire_resistance:0.0,
+    min_water_resistance:0.0,
+    min_shake_resistance:0.0
+},
+{
+	text:"Potop",
+	subtext:"Jale cu J mare",
+	affected_food:-20,
+	affected_resources:10,
+	affected_people:-20,
+	affected_chromozome:null,
+	min_fire_resistance:0.0,
+    min_water_resistance:0.0,
+    min_shake_resistance:0.0
+},
+{
+	text:"Ciuma",
+	subtext:"Mor multi oameni",
+	affected_food:0,
+	affected_resources:0,
+	affected_people:-200,
+	affected_chromozome:null,
+	min_fire_resistance:0.0,
+    min_water_resistance:0.0,
+    min_shake_resistance:0.0
+}]

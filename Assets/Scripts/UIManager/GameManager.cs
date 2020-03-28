@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     private GameObject book_button;
 
 
+
     private void Start()
     {
         loadGame();
@@ -74,6 +75,7 @@ public class GameManager : MonoBehaviour
         if(currentJobPanel!=null) jobToMain();
         GameData.currentMainPanelIndex++;
         changeMainPanel();
+        EndOfEraManager.Instance.showDisasters();
     }
 
     //schimba main-ul curent cu cel de la indexul din GameData

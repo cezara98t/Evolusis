@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 class GameData 
-{ 
+{
+    //public static HousingRepository housingRepository = new HousingRepository();
+
     public static GameObject mainPanel;
     public static GameObject currentJobPanel;
 

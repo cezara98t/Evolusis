@@ -1,0 +1,24 @@
+[{
+	text:"Multi copii",
+	subtext:"Populatia creste",
+	affected_food:0,
+	affected_resources:0,
+	affected_people:100,
+	affected_chromozome:null
+},
+{
+	text:"Putine boli",
+	subtext:"Mancarea creste",
+	affected_food:50,
+	affected_resources:0,
+	affected_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Dans",
+	subtext:"",
+	affected_food:0,
+	affected_resources:0,
+	affected_people:50,
+	affected_chromozome:null
+}]
