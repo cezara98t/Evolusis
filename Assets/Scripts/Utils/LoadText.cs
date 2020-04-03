@@ -9,13 +9,16 @@ using UnityEngine.UI;
 public class LoadText : MonoBehaviour
 {
     public Text infoText;
+    public Text eraText;
 
-    Texts jsonText;
+    static Texts jsonText;
 
-    private bool first = true;
 
     class Texts
     {
+        public string name_of_era;
+        public string part_of_era;
+        public string scene;
         public string health;
         public string food;
         public string construction;
@@ -23,26 +26,34 @@ public class LoadText : MonoBehaviour
 
     public void showHealth()
     {
-        readJson();
-
         infoText.text = jsonText.health;
     }
 
     public void showFood()
     {
-
-        readJson();
-
         infoText.text = jsonText.food;
     }
 
     public void showConstruction()
     {
-        readJson();
         infoText.text = jsonText.construction;
     }
 
-    private void readJson()
+    public void showScene()
+    {
+        eraText.text = jsonText.scene;
+    }
+
+    public static string getName_of_era()
+    {
+        return jsonText.name_of_era;
+    }
+    public static string getPart_of_era()
+    {
+        return jsonText.part_of_era;
+    }
+
+    public static void readJson()
     {
         string path = "Jsons/" + GameData.mainPanel.name + "/info";
         TextAsset t = Resources.Load<TextAsset>(path);

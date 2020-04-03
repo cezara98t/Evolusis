@@ -54,8 +54,8 @@ public class ActionButtonsManager : MonoBehaviour
         if (String.IsNullOrEmpty(validated))
         {
             EnergyBarManager.Instance.consumeEnergy();
-            double chance = Utils.GetRandomDouble();
-            if (chance > button.requested_ability_percentage)
+            double requested_ability_percentage = GameData.population_abilities.abilities[button.requested_ability];
+            if (requested_ability_percentage > button.requested_ability_percentage)
             {
                 doGoodAction(button);
             }
@@ -76,6 +76,7 @@ public class ActionButtonsManager : MonoBehaviour
         GameData.food -= button.lose_food;
         GameData.resources -= button.lose_resources;
         GameData.population_size -= button.lose_people;
+        GameData.population_abilities.addChromozome(button.affected_chromozome);
     }
 
     private void doGoodAction(ActionButtonData button)
@@ -83,7 +84,7 @@ public class ActionButtonsManager : MonoBehaviour
         GameData.food += button.affected_food;
         GameData.resources += button.affected_resources;
         GameData.population_size += button.affected_people;
-       // GameData.housingRepository.add(GameData.currentMainPanelIndex);
+        GameData.population_abilities.addChromozome(button.affected_chromozome);
     }
 
     private IEnumerator showErrorPanel( string validated){

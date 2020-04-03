@@ -8,7 +8,6 @@ using UnityEngine;
 
 class GameData 
 {
-    //public static HousingRepository housingRepository = new HousingRepository();
 
     public static GameObject mainPanel;
     public static GameObject currentJobPanel;
@@ -19,6 +18,8 @@ class GameData
     public static int resources=0;
     public static int food=0;
     public static int energy = 20;
+
+    public static Chromozome population_abilities = new Chromozome();
 
     public static void restoreEnergy() { energy = 20; }
 
@@ -44,6 +45,7 @@ class GameData
 
     public static void newGame()
     {
+        population_abilities = new Chromozome();
         GameData.population_size = 1000;
         GameData.resources = 0;
         GameData.food = 0;

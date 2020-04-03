@@ -2,8 +2,8 @@
 {
 	text:"Vaneaza un mamut",
 	subtext:"",
-	requested_ability:"patience",
-	requested_ability_percentage:0.3,
+	requested_ability:"strength",
+	requested_ability_percentage:0.25,
 	affected_food:70,
 	affected_resources:0,
 	affected_people:0,
@@ -11,13 +11,25 @@
 	lose_food:0,
 	lose_resources:0,
 	lose_people:10,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.002,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.04,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.01
+  		}
+	}
 },
 {
 	text:"Vaneaza iepuri",
 	subtext:"",
 	requested_ability:"agility",
-	requested_ability_percentage:0.3,
+	requested_ability_percentage:0.32,
 	affected_food:50,
 	affected_resources:0,
 	affected_people:0,
@@ -25,5 +37,17 @@
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.05
+  		}
+	}
 }]

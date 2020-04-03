@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         loadGame();
+        LoadText.readJson();
+        loadEraText();
         GameData.mainPanel = mainPanels[GameData.currentMainPanelIndex];
         return_button = eraInfo.transform.Find("return_button").gameObject;
         qmark_button = eraInfo.transform.Find("qmark_button").gameObject;
@@ -40,6 +42,11 @@ public class GameManager : MonoBehaviour
         lifeInfo.transform.Find("resources").GetComponent<Text>().text = GameData.resources.ToString();        
     }
 
+    private void loadEraText()
+    {
+        eraInfo.transform.Find("name_of_era").GetComponent<Text>().text=LoadText.getName_of_era();
+        eraInfo.transform.Find("part_of_era").GetComponent<Text>().text=LoadText.getPart_of_era();
+    }
 
     public void mainToJob(GameObject jobPanel) {
         mainPanel.SetActive(false);
@@ -76,6 +83,9 @@ public class GameManager : MonoBehaviour
         GameData.currentMainPanelIndex++;
         changeMainPanel();
         EndOfEraManager.Instance.showDisasters();
+
+        LoadText.readJson();
+        loadEraText();
     }
 
     //schimba main-ul curent cu cel de la indexul din GameData

@@ -1,56 +1,56 @@
 ﻿
 using System.Collections.Generic;
+using UnityEngine;
 
 public class Chromozome
 {
-    public double fitness; //trebuie get si set, nu am pus ca sa nu apara in json
 
-    public Dictionary<string, double> genes { get; set; }
+    public Dictionary<string, double> abilities { get; set; }
 
     //random init
     public Chromozome()
     {
-        fitness = 0;
-        genes = new Dictionary<string, double>();
-        genes.Add("intelligence", 0);
-        genes.Add("health", 0);
-        genes.Add("fire_resistance", 0);
-        genes.Add("swimming_ability", 0);
-        genes.Add("diseases_resistance", 0);
-        genes.Add("poison_resistance", 0);
-        genes.Add("strength", 0);
-        genes.Add("spirituality", 0);
-        genes.Add("patience", 0);
-        genes.Add("agility", 0);
-        List<string> keys = new List<string>(genes.Keys);
+        abilities = new Dictionary<string, double>();
+        abilities.Add("intelligence", 0);
+        abilities.Add("fire_resistance", 0);
+        abilities.Add("swimming_ability", 0);
+        abilities.Add("diseases_resistance", 0);
+        abilities.Add("poison_resistance", 0);
+        abilities.Add("strength", 0);
+        abilities.Add("spirituality", 0);
+        abilities.Add("patience", 0);
+        abilities.Add("agility", 0);
+        List<string> keys = new List<string>(abilities.Keys);
         foreach (string key in keys)
         {
-            genes[key] = Utils.GetRandomDouble();
-            fitness += genes[key];
+            abilities[key] = Utils.GetRandomDouble(0,0.2);
         }
-
-        fitness /= genes.Count;
 
     }
 
-    public void calculateFitness()
+    public double calculateFitness()
     {
-
-        List<string> keys = new List<string>(genes.Keys);
+        double fitness = 0;
+        List<string> keys = new List<string>(abilities.Keys);
         foreach (string key in keys)
         {
-            fitness += genes[key];
+            fitness += abilities[key];
         }
 
-        fitness /= genes.Count;
+        fitness /= abilities.Count;
+        return fitness;
     }
 
-    public void mutate()
+  
+    public void addChromozome(Chromozome other)
     {
-        List<string> keys = new List<string>(genes.Keys);
-        string randomKey = keys[Utils.GetRandomInt(keys.Count)];
-        genes[randomKey] = Utils.GetRandomDouble();
-
+        List<string> keys = new List<string>(abilities.Keys);
+        foreach (string key in keys)
+        {
+            abilities[key] +=  other.abilities[key];
+            if (abilities[key] < 0) abilities[key] = 0;
+            if (abilities[key] > 1) abilities[key] = 1;
+        }
     }
-
+    
 }
