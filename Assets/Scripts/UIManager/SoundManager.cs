@@ -66,6 +66,7 @@ public class SoundManager : MonoBehaviour
     public void stopJobSound()
     {
         audioSourceJob.Stop();
+        audioSourceJob = null;
     }
 
 
@@ -85,8 +86,7 @@ public class SoundManager : MonoBehaviour
     }
 
     public void changeMute() {
-        if (muted == true)
-        {
+        if (muted == true) {
             muted = false;
             unmute();
             soundButtonText.text = "Sunet : DA";
