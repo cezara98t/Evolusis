@@ -65,8 +65,11 @@ public class SoundManager : MonoBehaviour
 
     public void stopJobSound()
     {
-        audioSourceJob.Stop();
-        audioSourceJob = null;
+        if (audioSourceJob != null)
+        {
+            audioSourceJob.Stop();
+            audioSourceJob = null;
+        }
     }
 
 

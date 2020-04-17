@@ -117,6 +117,8 @@ public class GameManager : MonoBehaviour
         GameData.loadGame();
         changeMainPanel();
         EnergyBarManager.Instance.refreshEnergy();
+        LoadText.readJson();
+        loadEraText();
     }
 
     public void newGame()
@@ -127,6 +129,8 @@ public class GameManager : MonoBehaviour
         GameData.newGame();
         changeMainPanel();
         EnergyBarManager.Instance.refreshEnergy();
+        LoadText.readJson();
+        loadEraText();
     }
 
 

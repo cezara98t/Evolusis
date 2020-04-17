@@ -12,6 +12,9 @@ class GameData
     public static GameObject mainPanel;
     public static GameObject currentJobPanel;
 
+    public static string name_of_era;
+    public static string name_of_subera;
+
     public static int currentMainPanelIndex = 0;
 
     public static int population_size = 1000;
