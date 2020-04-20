@@ -74,16 +74,20 @@ public class ActionButtonsManager : MonoBehaviour
     private void doBadAction(ActionButtonData button)
     {
         GameData.food -= button.lose_food;
+        if (GameData.food < 0) GameData.food = 0;
         GameData.resources -= button.lose_resources;
+        if (GameData.resources < 0) GameData.resources = 0;
         GameData.population_size -= button.lose_people;
         GameData.population_abilities.addChromozome(button.affected_chromozome);
     }
 
     private void doGoodAction(ActionButtonData button)
-    {
+    { 
         GameData.food += button.affected_food;
+        if (GameData.food < 0) GameData.food = 0;
         GameData.resources += button.affected_resources;
-        GameData.population_size += button.affected_people;
+        if (GameData.resources < 0) GameData.resources = 0;
+            GameData.population_size += button.affected_people;
         GameData.population_abilities.addChromozome(button.affected_chromozome);
     }
 

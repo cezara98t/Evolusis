@@ -1,4 +1,4 @@
-[{
+{
 	text:"",
 	subtext:"",
 	requested_ability:"",
@@ -10,5 +10,17 @@
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
-}]
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0
+  		}
+	}
+}
