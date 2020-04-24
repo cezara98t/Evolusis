@@ -1,7 +1,7 @@
 [
 {
-	text:"Vaneaza un mamut",
-	subtext:"Vei primi mancare si resurse.",
+	text:"Vânează un mamut",
+	subtext:"Vei primi mâncare și resurse.",
 	requested_ability:"strength",
 	requested_ability_percentage:0.25,
 	affected_food:70,
@@ -26,7 +26,7 @@
 	}
 },
 {
-	text:"Vaneaza iepuri",
+	text:"Vânează iepuri",
 	subtext:"",
 	requested_ability:"agility",
 	requested_ability_percentage:0.32,
@@ -52,7 +52,7 @@
 	}
 },
 {
-	text:"Pescuieste",
+	text:"Pescuiește",
 	subtext:"",
 	requested_ability:"patience",
 	requested_ability_percentage:0.2,
@@ -77,7 +77,7 @@
   		}
 	}
 },{
-	text:"Cauta mancare",
+	text:"Caută mâncare",
 	subtext:"",
 	requested_ability:"intelligence",
 	requested_ability_percentage:0.32,

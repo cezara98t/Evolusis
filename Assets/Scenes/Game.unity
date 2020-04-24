@@ -1099,8 +1099,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000019073, y: 0}
-  m_SizeDelta: {x: 400, y: 800}
+  m_AnchoredPosition: {x: 0.000005722, y: 0}
+  m_SizeDelta: {x: 480, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &83652771
 MonoBehaviour:
@@ -3683,7 +3683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &414809194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3811,7 +3811,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Save
+  m_Text: "Salveaz\u0103 jocul curent"
 --- !u!222 &419584440
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4570,7 +4570,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New game
+  m_Text: "\xCEncepe un joc nou"
 --- !u!222 &497983744
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6562,7 +6562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 94.2, y: 232.6}
+  m_AnchoredPosition: {x: 99.3, y: 238.5}
   m_SizeDelta: {x: 136.7, y: 36.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &710924743
@@ -6596,7 +6596,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Infromatii
+  m_Text: "Infroma\u021Bii"
 --- !u!222 &710924744
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7400,8 +7400,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 89.033, y: 239.96}
-  m_SizeDelta: {x: 181.24, y: 64.83}
+  m_AnchoredPosition: {x: 94.314995, y: 246.03}
+  m_SizeDelta: {x: 204.67, y: 66.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &769869129
 MonoBehaviour:
@@ -10294,8 +10294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 325, y: 32.22222}
+  m_AnchoredPosition: {x: -7.4, y: 0}
+  m_SizeDelta: {x: 314.9, y: 28}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &999843343
 MonoBehaviour:
@@ -12307,7 +12307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Omul persterii
+  m_Text: "Omul pe\u0219terii"
 --- !u!222 &1158971467
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14964,8 +14964,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -86.535, y: 240.7}
-  m_SizeDelta: {x: 186.23, y: 92.51}
+  m_AnchoredPosition: {x: -88.3, y: 246.3}
+  m_SizeDelta: {x: 188.76, y: 92.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1391777560
 PrefabInstance:
@@ -15917,7 +15917,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.60002136, y: -239.89996}
-  m_SizeDelta: {x: 35.200012, y: -548.4}
+  m_SizeDelta: {x: -44.799988, y: -548.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1496990274
 MonoBehaviour:
@@ -16573,8 +16573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000019073, y: 0}
-  m_SizeDelta: {x: 400, y: 800}
+  m_AnchoredPosition: {x: 0.000005722, y: 0}
+  m_SizeDelta: {x: 480, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1578443534
 MonoBehaviour:
@@ -16706,7 +16706,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Load
+  m_Text: "Continu\u0103 ultimul joc salvat"
 --- !u!222 &1580668306
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17817,7 +17817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -91.7, y: 231.99994}
+  m_AnchoredPosition: {x: -91.7, y: 237.90002}
   m_SizeDelta: {x: 92.5, y: 38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1753628187
@@ -17851,9 +17851,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Actiuni
-
-'
+  m_Text: "Ac\u021Biuni\n"
 --- !u!222 &1753628188
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17971,7 +17969,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 325, y: 27.777779}
+  m_SizeDelta: {x: 325, y: 28}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1762860061
 MonoBehaviour:
@@ -19683,10 +19681,10 @@ RectTransform:
   m_Father: {fileID: 1912622140}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 181.75, y: -519.1}
-  m_SizeDelta: {x: 49.31, y: 28.13}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 4.2, y: 39.300003}
+  m_SizeDelta: {x: 49.309998, y: 28.130005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944304825
 MonoBehaviour:
