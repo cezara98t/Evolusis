@@ -61,6 +61,9 @@ public class EndOfEraManager : MonoBehaviour
         GameData.food += disaster.affected_food;
         GameData.resources += disaster.affected_resources;
         GameData.population_size += disaster.affected_people;
+        if (GameData.food < 0) GameData.food = 0;
+        if (GameData.resources < 0) GameData.resources = 0;
+        if (GameData.population_size < 0) GameData.population_size = 0;
         disastersPanel.SetActive(false);
         showImprovements();
     }

@@ -8,7 +8,6 @@ using UnityEngine;
 
 class GameData 
 {
-
     public static GameObject mainPanel;
     public static GameObject currentJobPanel;
 
@@ -26,6 +25,10 @@ class GameData
 
     public static void restoreEnergy() { energy = 20; }
 
+    public static int getFirstTime()
+    {
+        return PlayerPrefs.GetInt("first_time");
+    }
     public static void saveGame()
     {
         PlayerPrefs.SetInt("population_size", population_size);
@@ -48,6 +51,7 @@ class GameData
 
     public static void newGame()
     {
+        PlayerPrefs.SetInt("first_time", 1);    
         population_abilities = new Chromozome();
         GameData.population_size = 1000;
         GameData.resources = 0;

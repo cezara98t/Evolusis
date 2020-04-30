@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public ActionButtonsManager actionButtonsManager;
+    public GameObject tutorialPanel;
+    public GameObject achievementslPanel;
     public GameObject mainPanel;
     private GameObject currentJobPanel;
     public GameObject endOfEraPanel;
@@ -23,6 +25,10 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        if (GameData.getFirstTime() == 0)
+        {
+            tutorialPanel.SetActive(true);
+        }
         loadGame();
         LoadText.readJson();
         loadEraText();
@@ -86,6 +92,11 @@ public class GameManager : MonoBehaviour
 
         LoadText.readJson();
         loadEraText();
+
+        if (GameData.currentMainPanelIndex == 5) //la final o sa fie 8 cand sunt toate !!
+        {
+            eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
+        }
     }
 
     //schimba main-ul curent cu cel de la indexul din GameData
@@ -110,6 +121,8 @@ public class GameManager : MonoBehaviour
 
     public void loadGame()
     {
+        achievementslPanel.SetActive(false); 
+        eraInfo.transform.Find("endGame_button").gameObject.SetActive(false);
         GameData.mainPanel = mainPanels[GameData.currentMainPanelIndex];
         mainPanel = GameData.mainPanel;
         if (GameData.currentJobPanel != null)
@@ -119,10 +132,16 @@ public class GameManager : MonoBehaviour
         EnergyBarManager.Instance.refreshEnergy();
         LoadText.readJson();
         loadEraText();
+        if (GameData.currentMainPanelIndex == 5) //la final o sa fie 8 cand sunt toate !!
+        {
+            eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
+        }
     }
 
     public void newGame()
     {
+        achievementslPanel.SetActive(false);
+        eraInfo.transform.Find("endGame_button").gameObject.SetActive(false);
         GameData.mainPanel = mainPanels[0]; 
         if (GameData.currentJobPanel != null)
             jobToMain();

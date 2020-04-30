@@ -101,5 +101,57 @@
 	    "agility": 0.00
   		}
 	}
+},
+{
+	text:"Caută mâncare 2",
+	subtext:"",
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.32,
+	affected_food:50,
+	affected_resources:0,
+	affected_people:0,
+	bad_message:"Oamenii nu erau destul de inteligenti si au fost otraviti.\n Au murit 10 oameni.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:10,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.05,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.01,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.00
+  		}
+	}
+},
+{
+	text:"Caută mâncare 3",
+	subtext:"",
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.32,
+	affected_food:50,
+	affected_resources:0,
+	affected_people:0,
+	bad_message:"Oamenii nu erau destul de inteligenti si au fost otraviti.\n Au murit 10 oameni.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:10,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.05,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.01,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.00
+  		}
+	}
 }
 ]
