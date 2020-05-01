@@ -36,6 +36,7 @@ class GameData
         PlayerPrefs.SetInt("food", food);
         PlayerPrefs.SetInt("energy", energy);
         PlayerPrefs.SetInt("currentMainPanelIndex", currentMainPanelIndex);
+        PlayerPrefs.SetString("abilities", JsonConvert.SerializeObject(population_abilities));
     }
 
     public static void loadGame()
@@ -47,6 +48,8 @@ class GameData
         food = PlayerPrefs.GetInt("food");
         energy = PlayerPrefs.GetInt("energy");
         currentMainPanelIndex = PlayerPrefs.GetInt("currentMainPanelIndex");
+        population_abilities = JsonConvert.DeserializeObject<Chromozome>(PlayerPrefs.GetString("abilities"));
+
     }
 
     public static void newGame()
