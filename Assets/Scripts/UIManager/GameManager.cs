@@ -25,10 +25,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        if (GameData.getFirstTime() == 0)
+        if (GameData.getFirstTime() == 0)   // este prima data cand utilizatorul deschide jocul
         {
-            tutorialPanel.SetActive(true);
+            tutorialPanel.SetActive(true); 
         }
+
         loadGame();
         LoadText.readJson();
         loadEraText();
@@ -110,8 +111,6 @@ public class GameManager : MonoBehaviour
         }
         mainPanel.SetActive(true);
     }
-
-
 
 
     public void saveGame()

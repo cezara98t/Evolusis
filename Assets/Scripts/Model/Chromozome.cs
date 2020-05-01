@@ -20,6 +20,9 @@ public class Chromozome
         abilities.Add("spirituality", 0);
         abilities.Add("patience", 0);
         abilities.Add("agility", 0);
+        abilities.Add("food_resistance", 0);
+        abilities.Add("resources_resistance", 0);
+        abilities.Add("people_resistance", 0);
         List<string> keys = new List<string>(abilities.Keys);
         foreach (string key in keys)
         {

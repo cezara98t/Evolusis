@@ -1,33 +1,116 @@
 [{
 	text:"Cutremur",
-	subtext:"Nu e asa grav",
+	subtext:"Afectează populația și resursele.",
 	affected_food:0,
 	affected_resources:0,
 	affected_people:-10,
-	affected_chromozome:null,
-	min_fire_resistance:0.0,
-    min_water_resistance:0.0,
-    min_shake_resistance:0.0
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0
+  		}
+	},
+	min_food_resistance:0.0,
+    min_resources_resistance:0.0,
+    min_people_resistance:0.0
 },
 {
 	text:"Potop",
-	subtext:"Jale cu J mare",
+	subtext:"Afecteză în principal resursele de hrană.",
 	affected_food:-20,
 	affected_resources:10,
 	affected_people:-20,
-	affected_chromozome:null,
-	min_fire_resistance:0.0,
-    min_water_resistance:0.0,
-    min_shake_resistance:0.0
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0
+  		}
+	},
+	min_food_resistance:0.0,
+    min_resources_resistance:0.0,
+    min_people_resistance:0.0
 },
 {
-	text:"Foamete",
-	subtext:"Resursele de hrana scad",
+	text:"Invazie de lăcuste",
+	subtext:"Afecteză în principal resursele de hrană.",
 	affected_food:-20,
 	affected_resources:0,
 	affected_people:0,
-	affected_chromozome:null,
-	min_fire_resistance:0.0,
-    min_water_resistance:0.0,
-    min_shake_resistance:0.0
-}]
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0
+  		}
+	},
+	min_food_resistance:0.0,
+    min_resources_resistance:0.0,
+    min_people_resistance:0.0
+},
+{
+	text:"Secetă",
+	subtext:"Afecteză în principal resursele de hrană.",
+	affected_food:-20,
+	affected_resources:0,
+	affected_people:0,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0
+  		}
+	},
+	min_food_resistance:0.0,
+    min_resources_resistance:0.0,
+    min_people_resistance:0.0
+},
+{
+	text:"Tornadă",
+	subtext:"Afectează populația și resursele.",
+	affected_food:-20,
+	affected_resources:10,
+	affected_people:-20,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0
+  		}
+	},
+	min_food_resistance:0.0,
+    min_resources_resistance:0.0,
+    min_people_resistance:0.0
+},
+]
