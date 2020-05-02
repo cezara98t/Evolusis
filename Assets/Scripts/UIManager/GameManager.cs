@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -44,10 +46,21 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        lifeInfo.transform.Find("population").GetComponent<Text>().text = GameData.population_size.ToString();
-        lifeInfo.transform.Find("food").GetComponent<Text>().text = GameData.food.ToString();
-        lifeInfo.transform.Find("resources").GetComponent<Text>().text = GameData.resources.ToString();        
+        lifeInfo.transform.Find("population").GetComponent<Text>().text = convertWithDot(GameData.population_size);
+        lifeInfo.transform.Find("food").GetComponent<Text>().text = convertWithDot(GameData.food);
+        lifeInfo.transform.Find("resources").GetComponent<Text>().text = convertWithDot(GameData.resources);        
     }
+
+    private string convertWithDot(int number)
+    {
+        NumberFormatInfo nfi = new CultureInfo("en-US", false).NumberFormat;
+        nfi.CurrencyDecimalSeparator = ",";
+        nfi.CurrencyGroupSeparator = ".";
+        nfi.CurrencySymbol = "";
+        var answer = Convert.ToDecimal(number).ToString("C3", nfi);
+        return answer.Substring(0, answer.Length - 4);
+    }
+
 
     private void loadEraText()
     {
@@ -94,7 +107,7 @@ public class GameManager : MonoBehaviour
         LoadText.readJson();
         loadEraText();
 
-        if (GameData.currentMainPanelIndex == 5) //la final o sa fie 8 cand sunt toate !!
+        if (GameData.currentMainPanelIndex == 6) //la final o sa fie 8 cand sunt toate !!
         {
             eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
         }
@@ -131,7 +144,7 @@ public class GameManager : MonoBehaviour
         EnergyBarManager.Instance.refreshEnergy();
         LoadText.readJson();
         loadEraText();
-        if (GameData.currentMainPanelIndex == 5) //la final o sa fie 8 cand sunt toate !!
+        if (GameData.currentMainPanelIndex == 6) //la final o sa fie 8 cand sunt toate !!
         {
             eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
         }
