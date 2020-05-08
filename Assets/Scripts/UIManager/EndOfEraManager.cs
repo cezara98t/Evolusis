@@ -10,9 +10,8 @@ public class EndOfEraManager : MonoBehaviour
 
     public GameObject disastersPanel;
     public GameObject prefab_disaster;
-    public DisastersRepository disastersRepository;
-
-    public ImprovementsRepository improvementsRepository;
+    private IRepository<List<DisasterButtonData>> disastersRepository;
+    private IRepository<List<ButtonData>> improvementsRepository;
     public GameObject improvementsPanel;
     public GameObject prefab_improvement;
 

@@ -26,7 +26,7 @@ public class Chromozome
         List<string> keys = new List<string>(abilities.Keys);
         foreach (string key in keys)
         {
-            abilities[key] = Utils.GetRandomDouble(0,0.2);
+            abilities[key] = RandomGenerator.GetRandomDouble(0,0.2);
         }
 
     }

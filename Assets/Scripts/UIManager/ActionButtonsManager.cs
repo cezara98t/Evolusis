@@ -12,7 +12,7 @@ public class ActionButtonsManager : MonoBehaviour
     public GameObject containter;
     public GameObject error_panel;
 
-    private ActionButtonRepository actionButtonRepository;
+    private IRepository<List<ActionButtonData>> actionButtonRepository;
     private ActionButtonValidator validator;
 
  

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-public class ActionButtonValidator
+public class ActionButtonValidator : IValidator<ActionButtonData>
 {
     ActionButtonData data;
     public string validate(ActionButtonData d)
