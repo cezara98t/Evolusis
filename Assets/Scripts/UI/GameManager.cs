@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public ActionButtonsManager actionButtonsManager;
     public GameObject tutorialPanel;
     public GameObject achievementslPanel;
     public GameObject mainPanel;
