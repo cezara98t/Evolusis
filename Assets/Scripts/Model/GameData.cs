@@ -5,8 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI;
 
-class GameData 
+class GameData
 {
     public static GameObject mainPanel;
     public static GameObject currentJobPanel;
@@ -17,11 +18,23 @@ class GameData
     public static int currentMainPanelIndex = 0;
 
     public static int population_size = 1000;
-    public static int resources=0;
-    public static int food=0;
+    public static int resources = 0;
+    public static int food = 0;
     public static int energy = 20;
 
     public static Chromozome population_abilities = new Chromozome();
+
+    public static Dictionary<string, int> achievements = new Dictionary<string, int> { { "Image", 1 }, {"Image (1)", 0 }, { "Image (2)", 1 }, { "Image (3)", 0 }, { "Image (4)", 0 }, { "Image (5)", 0 }, { "Image (6)", 0 }, { "Image (7)", 0 } };
+    
+    public static string getGameAchv()
+    {
+        if (population_abilities.abilities["strength"] == 1)
+        {
+            achievements["Image (3)"] = 1;
+            return "Image (3)";
+        }
+        return "Image (4)";
+    }
 
     public static void restoreEnergy() { energy = 20; }
 
