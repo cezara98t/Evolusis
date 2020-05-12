@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
         qmark_button.SetActive(true);
         book_button.SetActive(false);
 
-        SoundManager.Instance.playJobSound(currentJobPanel.name);
+        SoundManager.Instance.playJobSound();
     }
 
     public void jobToMain() {
@@ -147,6 +147,8 @@ public class GameManager : MonoBehaviour
         {
             eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
         }
+
+        SoundManager.Instance.playMainSound();
     }
 
     public void newGame()
@@ -161,6 +163,8 @@ public class GameManager : MonoBehaviour
         EnergyBarManager.Instance.refreshEnergy();
         LoadText.readJson();
         loadEraText();
+
+        SoundManager.Instance.playMainSound();
     }
 
 

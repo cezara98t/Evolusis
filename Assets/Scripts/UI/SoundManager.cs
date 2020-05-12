@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,9 +16,12 @@ public class SoundManager : MonoBehaviour
 
     private AudioSource audioSourceBackground;
     private AudioSource audioSourceJob;
-    private Dictionary<string, AudioClip> jobSoundsByName;
-    private int currentMainSoundIndex = 0;
-
+    //perechi de forma (nume activitate, indice sunet din lista de sunete jobSounds)
+    private Dictionary<string, int> jobSoundsByName = new Dictionary<string, int> { {"Era1/Health", 0 }, { "Era2/Health", 0 } , { "Era3/Health", 0 },
+                                                                             {"Era2/House",1 }, {"Era3/House",1}, {"Era2/Food",2} };
+    //perechi de forma (nume era, indice sunet din lista de sunete background_sounds)
+    private Dictionary<string, int> eraSoundsByName = new Dictionary<string, int> { { "Era1",0}, { "Era2", 0 }, { "Era3", 0 }, { "Era4",1},
+                                                                            { "Era5",2},{ "Era6",3}, { "Era7",4}, { "Era8",5}, { "Era9",0}};
     private bool muted = false;
 
 
@@ -41,25 +45,22 @@ public class SoundManager : MonoBehaviour
         audioSourceBackground = soundManagerGO.GetComponents<AudioSource>()[0];
         audioSourceJob = soundManagerGO.GetComponents<AudioSource>()[1];
 
-        //initializare dictionar cu perechi de tip (numeJob, soundJob)
-        jobSoundsByName = new Dictionary<string, AudioClip>();
-        foreach (AudioClip ac in jobSounds)
-        {
-            jobSoundsByName.Add(ac.name, ac);
-        }
-
         //setare si pornire primul sunet pentru main
-        audioSourceBackground.clip = background_sounds[currentMainSoundIndex++];
+        audioSourceBackground.clip = background_sounds[0];
         audioSourceBackground.Play();
     }
 
     //primeste ca parametru numele job-ului pentru care trebuie pornit sunetul
-    public void playJobSound(string jobName)
+    public void playJobSound()
     {
-        if (jobSoundsByName.ContainsKey(jobName))
+        try
         {
-            audioSourceJob.clip = jobSoundsByName[jobName];
+            audioSourceJob.clip = jobSounds[jobSoundsByName[GameData.mainPanel.name + "/" + GameData.currentJobPanel.name]];
             if (muted == false) audioSourceJob.Play();
+        }
+        catch(Exception e)
+        {
+            // nu este o melodie pentru activitatea curenta
         }
     }
 
@@ -68,14 +69,15 @@ public class SoundManager : MonoBehaviour
         if (audioSourceJob != null)
         {
             audioSourceJob.Stop();
-            audioSourceJob = null;
+            audioSourceJob.clip = null;
         }
     }
 
 
     //la terminarea erei se apeleaza functia si schimba sunetul de fundal
-    public void nextMainSound() {
-        audioSourceBackground.clip = background_sounds[currentMainSoundIndex++];
+    public void playMainSound() {
+        audioSourceBackground.clip = background_sounds[eraSoundsByName[GameData.mainPanel.name]];
+        audioSourceBackground.Play();
     }
 
     private void mute() {
@@ -85,7 +87,8 @@ public class SoundManager : MonoBehaviour
 
     private void unmute() {
         audioSourceBackground.Play();
-        audioSourceJob.Play();
+        if(audioSourceJob!=null)
+            audioSourceJob.Play();
     }
 
     public void changeMute() {

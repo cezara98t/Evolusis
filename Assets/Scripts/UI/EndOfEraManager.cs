@@ -108,6 +108,7 @@ public class EndOfEraManager : MonoBehaviour
         GameData.population_abilities.addChromozome(improvement.affected_chromozome);
         improvementsPanel.SetActive(false);
         endOfEraPanel.SetActive(false);
+        SoundManager.Instance.playMainSound();
     }
 
 }

@@ -1,0 +1,105 @@
+[{
+	text:"Practica ritual pentru vindecarea sufletului",
+	subtext:"",
+	requested_ability:"spirituality",
+	requested_ability_percentage:0.3,
+	affected_food:0,
+	affected_resources:0,
+	affected_people:0,
+	bad_message:"Oamenii nu erau destul de spirituali. Ritualul nu a reusit.\n Au murit 5 oameni.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:5,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.002,
+	    "strength": 0.0,
+	    "spirituality": 0.02,
+	    "patience": 0.0,
+	    "agility": 0.0
+  		}
+	}
+},
+	{
+	text:"Experimenteaza ceaiuri din plante noi",
+	subtext:"",
+	requested_ability:"",
+	requested_ability_percentage:0.0,
+	affected_food:10,
+	affected_resources:0,
+	affected_people:0,
+	bad_message:"",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.02,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.003,
+	    "strength": 0.0,
+	    "spirituality": 0.02,
+	    "patience": 0.004,
+	    "agility": 0.0
+  		}
+	}
+},
+{
+	text:"Practica un ritual de fertilitate",
+	subtext:"",
+	requested_ability:"spirituality",
+	requested_ability_percentage:0.5,
+	affected_food:0,
+	affected_resources:0,
+	affected_people:10,
+	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.04,
+	    "spirituality": 0.06,
+	    "patience": 0.01,
+	    "agility": 0.00
+  		}
+  	}
+},
+{
+	text:"Inlatura spiritele rele",
+	subtext:"",
+	requested_ability:"spirituality",
+	requested_ability_percentage:0.0,
+	affected_food:0,
+	affected_resources:0,
+	affected_people:0,
+	bad_message:"",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "fire_resistance": 0.0,
+	    "swimming_ability": 0.0,
+	    "diseases_resistance": 0.0,
+	    "poison_resistance": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.1,
+	    "patience": 0.0,
+	    "agility": 0.0
+  		}
+	}
+}
+]
