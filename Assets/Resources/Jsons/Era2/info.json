@@ -1,24 +1,21 @@
 {
 	name_of_era:"Preistorie",
 	part_of_era:"Revoluția neolitică",
-scene:"Preistoria a fost prima si cea mai lunga epoca din istoria omenirii, care s-a intints de la primele urme umane (milioane de ani in urma) pana la aparitia scrierii (mileniul IV i.Hr).",
+scene:"Neoliticul reprezintă ultima etapă a Epocii Pietrei și a început acum aproximativ 10.000 de ani. În această etapă, stilul de viață al oamenilor s-a schimbat radical, moment numit de istorici “revoluția neolitică”. Motivul acestei schimbări este apariția agriculturii, adică cultivarea plantelor și creșterea animalelor, lucru ce i-a făcut pe oameni să ducă un mod de viață sedentar, continuând să vâneze, pescuiască și culeagă, însă în zone apropiate așezărilor.
+",
 
 
 
 
-
-health : "
-Samaaaaaaaaaaaani
+health : "În Preistorie, nu existau destule cunoștințe pentru vindecarea oamenilor, ei folosindu-se în mare parte de magie pentru a rezolva orice fel de problemă ce ținea de corpul uman. Totuși, unii oameni aveau sensul realității, acoperind rănile cu grăsime sau argilă și învelindu-le cu piei de animale sau scoarță de copac sau acoperind membrele rupte în lut, care se întărea la soare, lăsându-le să se vindece. Cu toate acestea, oamenii primitivi nu înțelegeau ce cauzează bolile, crezând că sunt blestemați, posedați de spirite rele. O “operație” întâlnită în această perioada este perforarea craniului, care se presupunea că alungă aceste spirite, unii oameni reușind să supraviețuiască, osul crescând înapoi (nu în totalitate). Astfel, oamenii din Preistorie erau vindecați, în majoritatea timpului, de către șamani.	
+Se consideră că șamanii există de la începutul lumii, ei fiind singurii care pot comunica cu Creatorul. Șamanismul presupune vindecarea sufletului întâi de toate, aducerea armoniei în minte și corp. Șamanii ajutau oamenii să renunțe la ego, să se purifice și să își restabilească stima de sine prin diferite ritualuri ce presupuneau cântece, dansuri, rugăciuni sau folosirea anumitor ierburi. Șamanii folosesc ierburile nu pentru compuși, ci pentru spiritele care trăiesc în ele. Se crede că ei visau plante și experimentau pentru a vedea efectele lor, pregătind ceaiuri sau băi pentru spălarea rănilor.
 ",
 
 
 
 
 
-food : "
-Revolutia neolitica
-In neolitic(acum circa 10.000 de ani), oamenii descopera agricultura si cresterea animalelor. Pentru gatitul si pastrarea alimentelor una din cele mai importante evolutii tehnologice este aparitie cuptorului si a olaritului.
-
+food : "În principal, oamenii cultivau cereale: orez, grâu, ovăz, secară și îngrădeau turme, reușind să îmblânzească oi, porci, capre și boi, primul animal domesticit fiind câinele, el devenind “cel mai bun prieten al omului”. Unii oameni au început să se ocupe de modelarea lutului pentru a obține vase din ceramică, acestea fiind folosite pentru păstrarea alimentelor și gătitul lor deasupra cuptorului, apărut tot în această etapă.
  ",
 
 
@@ -26,8 +23,5 @@ In neolitic(acum circa 10.000 de ani), oamenii descopera agricultura si crestere
 
 
 
-construction: "
-Revolutia neolitica
-Agricultura este motivul pentru care oamenii, pana acum nomazi, devin sedentari. Astfel, in Neolitic apar asezari construite cu forma circulara si cu pereti din chirpici, in centrul locuintei aflandu-se o vatra de foc si o piatra de macinat cereale. Se folosesc si caramizi de lut.
-"
+construction: "Datorită revoluției neolitice, oamenii au început să trăiască în așezări stabile și să construiască hambare pentru stocarea surplusului de hrană, reușind astfel să elibereze unii oameni din munca pentru procurarea hranei, dezvoltând primele meșteșuguri casnice: tors, țesut și olărit. Majoritatea locuințelor din aceste așezări aveau o formă circulară și pereți din chirpici, unii oameni folosind și cărămizi de lut. În centrul locuintor se aflau adesea o vatră de foc și o piatră de măcinat cerealele, acestea fiind folosite în pricipal de către femei, ele realizând sarcinile care implicau mai puțin efort fizic."
 }

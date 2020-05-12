@@ -1,39 +1,26 @@
 {
 	name_of_era:"Antichitate",
 	part_of_era:"Imperiul Roman",
-scene:"Preistoria a fost prima si cea mai lunga epoca din istoria omenirii, care s-a intints de la primele urme umane (milioane de ani in urma) pana la aparitia scrierii (mileniul IV i.Hr).",
+scene:"
+",
 
 
 
 
-
-health : "
-Samaaaaaaaaaaaani
+health : "Romanii, cucerind Grecia, adoptă din practicile medicale grecești. Credința în poțiunile magice nu dispare. Totuși, se credea că stilul de viață influențează sănătatea și că, atât timp cât ai o minte sănătoasă, boala te ocolește. Astfel, doctorii erau necesari doar soldaților răniți în război și familiilor înstărite ce angajau doctori personali. Cel mai renumit medic din Imperiul Roman a fost grecul Galen, acesta contribuind semnificativ la punerea bazelor anatomiei, disecând multiple animale, în special maimuțe. Vindecă conform Doctrinei celor patru umori, spunând că dezechilibrul acestora este cauza mai multor boli. El considera că un doctor bun cunoaște atât medicină, cât și filozifie și își practica meseria din plăcere, nu pentru bani [Aldrete]. Multe boli nu erau tratate de către doctori pentru a nu-și strica reputația, nu existau destule cunoștințe pentru a găsi cauza și nu doreau să riște viața lor și a pacienților căutând un tratament.
 ",
 
 
 
 
 
-food : "
-Epoca Metalelor
-Utilizarea metalelor conduce la folosirea plugului cu brazdar de fier, ce face ca pamantul sa fie arat mai usor. In acelasi timp, recoltele cresc considerabil.
+food : "Acoperind o suprafață imensă din jurul Mării Mediteraneene, Imperiul Roman a rămas în istorie drept cel mai mare imperiu din Antichitate. Terenul acestuia cuprindea atât munți, cât și câmpii roditoare, fapt pentru care romanii se bucurau de o multitudine de alimente. Agricultura se baza în principal pe creșterea grâului, măslinilor și viței-de-vie, fiecare activitate fiind conștient asignată oamenilor cu diferite calități și vârste. De exemplu, de cultivarea grâului se ocupau adulții puternici, această muncă având nevoie de multă forță și răbdare, urmând un proces complex: pământul era mai întâi arat de mai multe ori, fertilizat manual și semănat, apoi curățat de ierburi, pentru ca în final grâul să fie cules și apoi treierat. Din acest motiv, de vița-de-vie aveau grijă bătrânii și copii, procesul cultivării strugurilor fiind unul simplu, având drept produs final, de cele mai multe ori, vinul. Folosind câmpiile în scopul agriculturii, românilor le rămâneau munții pentru a crește animale, deci se îngrijeau în principal de oi și capre, acestea păscând fără probleme pe terenul muntos. Pe lângă rodurile muncii proprii, oamenii se bucurau de alimentele din piețe și de mâncarea din micile restaurante numite popinae, aceasta fiind constant încălzită în vase de lut, deasupra focului.
  ",
 
 
 
 
 
-construction: "
-Epoca Pietrei
-Primii oameni traiesc sub cerul liber. Treptat se adapostesc la marginea stancilor si in pesteri. Mai tarziu, primii oameni construiesc colibe si bordeie. Colibele sunt confectionate din bete de lemn si tusifuri.
-
-Revolutia neolitica
-Agricultura este motivul pentru care oamenii, pana acum nomazi, devin sedentari. Astfel, in Neolitic apar asezari construite cu forma circulara si cu pereti din chirpici, in centrul locuintei aflandu-se o vatra de foc si o piatra de macinat cereale. Se folosesc si caramizi de lut.
-
-
-Epoca Metalelor
-
-Odat? cu produc?ia în mas? a uneltelor ?i armelor din o?el, epoca a înregistrat progrese în arhitectur?, cu case cu patru camere, unele completate cu grajduri pentru animale, care se al?tur? mai multor forturi de dealuri rudimentare, precum ?i palate regale, temple ?i alte structuri religioase. De asemenea, a avut loc planificarea urban? timpurie, blocuri de case fiind ridicate de-a lungul str?zilor pavate sau pietruite ?i a sistemelor de ap? puse în aplicare.
+construction: "În Imperiul Roman se deosebesc două tipuri principale de locuințe, în funcție de starea financiară a familiei: domus și insulae. Cei mai înstăriți romani locuiau în case numite domus, având și acestea, la fel ca în Orient și în Grecia, o curte interioară, pentru a lăsa lumina să pătrundă. Aceste case nu erau decorate cu ornamente, ele ieșeau în evidență prin picturile de pe pereți, adesea prezentând scene mitologice și peisaje, și prin podelele cu mozaicuri colorate. Al doilea tip de locuință, insulae, era destinat oamenilor mai puțin înstăriți, era compus din mai multe etaje cu apartamente închiriate și la parterul acestuia erau adesea magazine. Cu cât apartamentul era la un etaj mai înalt, cu atât familia era mai săracă. Stilul de viață al romanilor era mult mai evoluat față de al altor popoare din Antichitate, ei având rețele de drumuri ce se întindeau pe mii de metri, conectând Roma cu tot restul imperiului, unele rezistând și în prezent, puneau accent pe curățenie și construiau apeducte, canale, băi cu apă caldă sau rece, teatre și arene pentru divertisment.
 "
 }

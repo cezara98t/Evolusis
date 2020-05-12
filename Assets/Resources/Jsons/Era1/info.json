@@ -1,32 +1,24 @@
 {
 	name_of_era:"Preistorie",
 	part_of_era:"Începutul",
-scene:"Preistoria a fost prima si cea mai lunga epoca din istoria omenirii, care s-a intints de la primele urme umane (milioane de ani in urma) pana la aparitia scrierii (mileniul IV i.Hr).",
-
-
-
-
-
-health : "
-Samanei
+scene:"Preistoria reprezintă prima și cea mai lungă epocă a istoriei umane, ea începând acum peste 4 milioane de ani și terminându-se odată cu inventarea scrisului. Această epoca cuprinde “Epoca Pietrei” și “Epoca Metalelor”, ele fiind denumite sugestiv după materialul folosit pentru crearea armelor și uneltelor. 
 ",
 
 
 
 
 
-food : "
-Procurarea hranei nu era un lucru ușor pentru primii oameni, ei trebuiau să o caute sau să o vâneze, astfel primind numele de “culegători-vânători”. Organizați în cete de vânătoare, oamenii culegeau plante și fructe sălbatice, pescuiau și vânau animale precum mamuți și bizoni. Pentru vânat, ei foloseau întâi bețe ascuțite, apoi arcuri cu săgeți și sulițe în vârful cărora puneau oase sau cremene, iar pentru pescuit foloseau harpoane și plase. Datorită epuizării surselor de hrană, aceștia migrau constant, ducând astfel o viață nomadă.
+health : "În Preistorie, nu existau destule cunoștințe pentru vindecarea oamenilor, ei folosindu-se în mare parte de magie pentru a rezolva orice fel de problemă ce ținea de corpul uman. Totuși, unii oameni aveau sensul realității, acoperind rănile cu grăsime sau argilă și învelindu-le cu piei de animale sau scoarță de copac sau acoperind membrele rupte în lut, care se întărea la soare, lăsându-le să se vindece. Cu toate acestea, oamenii primitivi nu înțelegeau ce cauzează bolile, crezând că sunt blestemați, posedați de spirite rele. O “operație” întâlnită în această perioada este perforarea craniului, care se presupunea că alungă aceste spirite, unii oameni reușind să supraviețuiască, osul crescând înapoi (nu în totalitate). Astfel, oamenii din Preistorie erau vindecați, în majoritatea timpului, de către șamani.	
+Se consideră că șamanii există de la începutul lumii, ei fiind singurii care pot comunica cu Creatorul. Șamanismul presupune vindecarea sufletului întâi de toate, aducerea armoniei în minte și corp. Șamanii ajutau oamenii să renunțe la ego, să se purifice și să își restabilească stima de sine prin diferite ritualuri ce presupuneau cântece, dansuri, rugăciuni sau folosirea anumitor ierburi. Șamanii folosesc ierburile nu pentru compuși, ci pentru spiritele care trăiesc în ele. Se crede că ei visau plante și experimentau pentru a vedea efectele lor, pregătind ceaiuri sau băi pentru spălarea rănilor.
+",
+
+
+food : "Procurarea hranei nu era un lucru ușor pentru primii oameni, ei trebuiau să o caute sau să o vâneze, astfel primind numele de “culegători-vânători”. Organizați în cete de vânătoare, oamenii culegeau plante și fructe sălbatice, pescuiau și vanau animale precum mamuți și bizoni. Pentru vânat, ei foloseau întâi bețe ascuțite, apoi arcuri cu săgeți și sulițe în vârful cărora puneau oase sau cremene, iar pentru pescuit foloseau harpoane și plase. Datorită epuizării surselor de hrană, aceștia migrau constant, ducând astfel o viață nomadă.
  ",
 
 
 
-
-
-
-construction: "
-Epoca Pietrei
-Primii oameni traiesc sub cerul liber. Treptat se adapostesc la marginea stancilor si in pesteri. Mai tarziu, primii oameni construiesc colibe si bordeie. Colibele sunt confectionate din bete de lemn si tusifuri.
+construction: "Neavând nevoie de o locuință stabilă, oamenii trăiau inițial sub cerul liber, mai apoi adăpostindu-se în peșteri sau la marginea stâncilor. În interiorul peșterilor se pot găsi și astăzi picturi rupestre reprezentând oameni, semne sau animale, realizate cu ajutorul mai multor pigmenți, cum ar fi ocrul sau cărbunele. Cu timpul, oamenii au început să construiască bordeie, corturi acoperite cu piele de mamut și colibe din bețe de lemn și tufișuri .
 
 
 "

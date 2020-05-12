@@ -1,0 +1,26 @@
+{
+	name_of_era:"Epoca Modernă",
+	part_of_era:"Revoluția industrială",
+scene:"Revoluția industrială începe la sfârșitul secolului XVIII în Marea Britanie, extinzându-se apoi și pe alte zone ale globului. Înainte de aceasta, majoritatea oamenilor erau fermieri și locuiau în mediul rural, însă, probabil, nevoia de schimbare i-a dus la descoperirea noilor stiluri de viață, mutându-se în mediul urban și părăsind muncile câmpului. Dispunând de o cantitate semnificativă de fier și cărbune, două resurse importante pentru industrializare, Marea Britanie este cea care pune bazele industriei prezente și în contemporan.
+",
+
+
+
+
+health : "Industria medicală, așa cum o cunoaștem astăzi, este rezultatul muncii mai multor oameni de știință ce au contribuit la găsirea cauzelor și tratamentelor diferitelor boli prezente în timpul Revoluției Industriale. Datorită supraaglomerii orașelor, sistemele de canalizare și dezinfectare nu mai fac față, astfel că apa devine contaminată, iar oamenii sunt mult mai expuși bolilor. Nevoia forței de muncă obligă angajatorii să aibă grijă ca muncitorii să rămână sănătoși, angajând medici personali. Toți acești factori îndreaptă doctorii spre căutarea de soluții, dând naștere medicinei moderne. Louis Pasture a avut un rol important în medicina din timpul Revoluției Industriale, acesta fiind numit adesea “părintele microbiologiei”. El a descoperit că microbii se răspândesc ușor în zonele populate, mai ales în cele neîngrijite, și acestea duc la nenumărate boli letale în acea perioada, cum ar fi antrax și holeră. O altă persoană importantă din acea vreme a fost Edward Jenner, acesta descoperind vaccinul pentru variolă, boală ce a afectat oamenii încă din Preistorie. Descoperirea anestezicelor face posibilă efectuarea operațiilor fără durere, intervențiile chirurgicale fiind mai eficiente și mai practicate, însă lipsa antisepticelor duce la moartea unor pacienți datorită infecțiilor. În această perioada apar majoritatea instrumentelor, medicamentelor și intervențiilor chirurgicale, făcând Revoluția Industrială o etapă importantă în istoria umanității, aceasta schimbând lumea în bine.
+",
+
+
+
+
+
+food : "De-a lungul timpului, oamenii au încercat să minimizeze munca pentru a maximiza producția: de la muncă fizică la plugul tras de boi, apoi la morile de vânt și de apă. Populația creștea rapid și astfel și nevoia de hrană, oamenii căutând noi metode de a-și îmbunătăți viața. O invenție importantă în acest sens a fost motorul cu aburi cu ajutorul căruia apar utilaje agricole precum tractorul și care dă naștere producției în masă și îndreaptă agricultorii spre noi meserii. În afară acestei schimbări, agricultura nu este afectată de revoluție, însă alimentația are parte de inovații. Apare mâncarea conservată în borcane de sticlă sigilate, apoi în cutii de metal, de acestea bucurându-se în mare parte marinarii. O invenție importantă în această perioada este frigiderul cu gheață care, pe lângă oferirea posibilității de a transporta mâncarea, în special pește, pe lungimi mai mari de drum, îmbunătățește viața oamenilor, bolile cauzate de mâncare stricată fiind întâlnite mai rar. Alte activități, deja existente, capătă noi forme, cum ar fi fabricarea berii, coacerea pâinii și a biscuiților, aceștia din urmă fiind, de asemenea, nelipsiți din alimentația marinarilor.
+ ",
+
+
+
+
+
+construction: "Datorită migrării oamenilor din rural în urban, crește nevoia de locuințe ieftine, în apropierea fabricilor. Astfel, apare mahalaua, în care trăiesc oamenii cu situație financiară precară, siguranța acestora fiind inexistentă datorită faptului că locuințele aveau o singură cameră și oricine putea intra în aceasta. De asemenea, pentru a trăi aproape de locul de muncă, oamenii erau nevoiți să locuiască și în beciuri, casa scării sau dormeau pe bănci pe care le închiriau. În ciuda acestor probleme, industria construcțiilor evoluează semnificativ în această perioadă. Descoperirea unor teorii fizice ajută la construirea clădirilor mai stabile, iar cimentul, apărut încă din Antichitate, capătă o nouă compoziție, fiind folosit în majoritatea construcțiilor. De asemenea, fierul, inițial folosit în construcția căilor ferate, începe să apară în numeroase construcții cunoscute, cum ar fi Turnul Eiffel, apoi ajută la crearea scheletelor clădirilor înalte, pe mai multe nivele, crescând astfel capacitatea acestora. La începutul Revoluției Industriale, apare gazul de cărbune distribuit clădirilor pentru iluminare, acest combustibil fiind mai apoi înlocuit datorită descoperirii electricității. Tot datorită acestei descoperiri, apare liftul, acesta având un rol important în cadrul clădirilor pe mai multe nivele, unele dintre acestea atingând chiar și cinsprezece etaje, eliminând efortul depus de către oamenii care locuiau la nivelele superioare ale clădirilor respective. Alte inovații menționabile sunt reprezentate de apariția caloriferelor cu lichid încălzit distribuit prin țevi conectate la boilere centrale și cea a corpurilor sanitare dotate cu apă și scurgere în schimbul galeților sau ligheanelor folosite până atunci.
+"
+}

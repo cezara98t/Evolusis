@@ -1,0 +1,29 @@
+{
+	name_of_era:"Epoca Modernă",
+	part_of_era:"Prezentul",
+scene:"
+",
+
+
+
+
+health : "Datorită medicinei dezvoltate în timpul Revoluției Industriale, au fost posibile avansări impresionate în prezent. Oamenii au acum posibilitatea de a beneficia de servicii medicale efectuate în deplină siguranță, existând tratamente pentru majoritatea afecțiunilor de care pot suferi. Drept exemplu pentru evoluția medicinei, pentru boli ce anterior erau dezastruase, cum ar fi poliomelita și pojarul, există acum vaccin. Sunt posibile transfuzii de sânge, administrări de insulină sau intervenții chirurgicale complicate, cum ar fi transplantul de inimă, toate acestea și multe altele vindecând sau stopând semnificativ disfuncțiunea. Toate acestea sunt posibile datorită avansării științei, descoperirii antisepticelor și anestezicelor mai bune, dezvoltării instrumentarului medical și cunoașterii măsurilor de igienă.
+",
+
+
+
+
+
+food : "Odată cu dezvoltarea industriei au apărut și noi metode pentru accelerarea producerii recoltelor. Începând cu fertilizarea pământului, până la utilizarea noilor utilaje agricole precum tractoare, combine de recoltat etc., toate au facilitat cultivarea și producerea hranei într-un ritm mult mai rapid față de vremurile anterioare, eliminând totodată o foarte mare parte din forța de muncă umană. Cu toate că aceste schimbări au adus beneficii în viața omului, asigurând hrana de zi cu zi, alte habitate au avut de suferit de pe urma lor. Mediul înconjurător a fost afectat datorită nevoii extinderii terenurilor agricole și nu numai, efectuându-se nenumărate defrișări, desecări și alte acțiuni dăunătoare mediului de viață natural al plantelor și animalelor.
+	Dezvoltarea științei a dus la posibilitatea reproducerii prin inginerie genetică, astfel înlocuind reproducerea selectivă în care plante și animale se reproduceau natural în vederea realizării unui descendent cu caracteristici îmbunătățite, caracteristici urmărite de oamenii de știință. Acest nou tip de reproducere are o multitudine de beneficii, printre care se află realizarea produselor alimentare cu un conținut mai mare de nutrienți într-un timp cât mai scurt, folosind cât mai puține substanțe dăunătoare.
+	În prezent, oamenii au la dispoziție alimente din toate culturile lumii, produse sub diferite forme, foametea fiind mai rar întâlnită față de anii precedenți. Tot acest val nou de alimente, majoritatea dintre ele conținând compuși creați in labarotor, a dus la aparția obezității, o nouă problemă la scară mondială.      	
+
+ ",
+
+
+
+
+
+construction: "Dorința oamenilor de a rămâne în mediul urban persistă datorită posibilității de a-și găsi un loc de muncă pentru o calitate ridicată a vieții, puțini fiind cei care încă practică agricultura, rămânând în mediul rural. Cu toate aceastea, epuizați de zgomotul orașului, unii oameni aleg să se retragă în mediul rural. Odată cu trecerea timpului și dezvoltatea economică, numărul persoanelor care locuiesc într-un apartament a scăzut, acestea având posibilitatea de a avea mai multă intimitate. Gradul de confort al oamenilor crește datorită dotării clădirilor cu toate utilitățile necesare. Dezvoltarea si înțelegerea legilor fizicii, împreună cu confecționarea materialelor de construcție mai rezistente au făcut posible claridirile zgârie-nori (de peste 40 de etaje), cea mai înalta având 163 de etaje, Burj Khalifa din Dubai. Arhitectura clădirilor din contemporan capătă noi forme, lăsând în urmă aspectul clasic al clădirilor dinaintea secolului XXI, folosindu-se sticla drept un element principal în construcția acestora.
+"
+}

@@ -11,7 +11,6 @@ public class AchievementsManager : MonoBehaviour
     private void Start()
     {
         achv_of_game.sprite=getAchvImage().sprite;
-        Debug.Log(getAchvImage().name);
         foreach (Image img in achievements)
         {
             if (GameData.achievements[img.name] == 0)
@@ -21,7 +20,6 @@ public class AchievementsManager : MonoBehaviour
                 old.g = 0;
                 old.b = 0;
                 img.color = old;
-                Debug.Log(img.color.r);
             }
             else
             {
@@ -31,7 +29,6 @@ public class AchievementsManager : MonoBehaviour
                 old.b = 255;
                 img.color = old;
 
-                Debug.Log(img.color.r);
             }
         }
 

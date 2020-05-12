@@ -1,39 +1,26 @@
 {
 	name_of_era:"Antichitate",
 	part_of_era:"Grecia Antică",
-scene:"Preistoria a fost prima si cea mai lunga epoca din istoria omenirii, care s-a intints de la primele urme umane (milioane de ani in urma) pana la aparitia scrierii (mileniul IV i.Hr).",
+scene:"
+",
 
 
 
 
-
-health : "
-Samaaaaaaaaaaaani
+health : "Inspirându-se de la egipteni, grecii antici folosesc medicamente sau magie pentru a vindeca bolile oamenilor, însă apelează la operații doar în cele mai grave situații. Datorită soldaților răniți în războaie, aceștia puteau să experimenteze tratamente pentru a vindeca rănile și să cunoască mai bine corpul uman. Leziunile erau cusute, spălate cu vin sau ulei și acoperite cu bandaje sau bureți. În Grecia Antică apare o figura importantă, Hippocrate, numit și “părintele medicinei”, jurământul inspirat din învățăturile sale rămânând relevat și în prezent. Acesta promova moralitatea, observa simptomele pentru a afla cauza, vedea corpul ca fiind complex și instabil, deci tratamentele sale nu se bazau pe magie. Teoria celor patru umori, considerată a fi creată de Hippocrate, presupunea că în corpul uman se găsesc patru lichide (bilă neagră, sânge, bilă galbenă, flegmă) ce trebuie să fie în echilibru, acestea corespunzând celor patru elemente (pământ, aer, foc, apă), idee crezută și reprodusă de mulți medici de-a lungul timpului. Tot în Grecia se pun bazele anatomiei, Herophilus și Erasistratus fiind printre primii care disecă părți ale corpului uman.
 ",
 
 
 
 
 
-food : "
-Epoca Metalelor
-Utilizarea metalelor conduce la folosirea plugului cu brazdar de fier, ce face ca pamantul sa fie arat mai usor. In acelasi timp, recoltele cresc considerabil.
+food : "Terenul Greciei Antice nu era prielnic pentru agricultură, așa cum era în Orient, acesta fiind predominant muntos, câmpiile având dimensiuni reduse. Totuși, datorită climei și terenului, oamenii aveau din abundență viță-de-vie și măslini, din care produceau ulei, folosit în prinicipal pentru gătit, iluminat și comerț. Având grijă de turmele de capre și oi, oamenii se bucurau și de carne, lapte și lână. De asemenea, în acea zona se găsea mult lut, fapt pentru care s-a dezvoltat ceramica. Vasele din ceramică aveau diferite forme și întrebuințări, cum ar fi depozitarea și transportul alimentelor. Lipsurile datorate terenului nefavorabil agriculturii au fost compensate de comerț, realizat prin transport maritim. Așadar, grecii vindeau uleiul de măsline și ceramica, primind în schimb cereale și materiale de construcție.
  ",
 
 
 
 
 
-construction: "
-Epoca Pietrei
-Primii oameni traiesc sub cerul liber. Treptat se adapostesc la marginea stancilor si in pesteri. Mai tarziu, primii oameni construiesc colibe si bordeie. Colibele sunt confectionate din bete de lemn si tusifuri.
-
-Revolutia neolitica
-Agricultura este motivul pentru care oamenii, pana acum nomazi, devin sedentari. Astfel, in Neolitic apar asezari construite cu forma circulara si cu pereti din chirpici, in centrul locuintei aflandu-se o vatra de foc si o piatra de macinat cereale. Se folosesc si caramizi de lut.
-
-
-Epoca Metalelor
-
-Odat? cu produc?ia în mas? a uneltelor ?i armelor din o?el, epoca a înregistrat progrese în arhitectur?, cu case cu patru camere, unele completate cu grajduri pentru animale, care se al?tur? mai multor forturi de dealuri rudimentare, precum ?i palate regale, temple ?i alte structuri religioase. De asemenea, a avut loc planificarea urban? timpurie, blocuri de case fiind ridicate de-a lungul str?zilor pavate sau pietruite ?i a sistemelor de ap? puse în aplicare.
+construction: "Asemănător oamenilor din Orient, grecii erau organizați în cetăți-stat, numite polisuri. Acestea cuprindeau cetatea și terenul agricol din jur, fiecare având o acropolă și o agoră. Acropola, inițial folosită că scop de refugiu în timpul unei invazii, era cel mai intalt loc din cetate, un loc sacru închinat anumitor zei din legende. De exemplu, acropola din Atena, un polis foarte cunoscut din Grecia Antică, era închinată Atenei, zeița Înțelepciunii. Agora era centrul polisului, piațaorașului, locuitorii construindu-și case în jurul acesteia. Locuințele grecilor erau făcute din piatră sau chirpici și aveau o curte interioară, asemănător celor din Orient. Cei bogați aveau case din piatră zidită cu mortar, cu tavan susținut de grinzi de lemn și acoperiș din ierburi sau, la nobili, țigle, iar în jurul caselor aveau livezi.
 "
 }

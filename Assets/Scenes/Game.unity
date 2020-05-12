@@ -4828,7 +4828,7 @@ GameObject:
   - component: {fileID: 404973810}
   - component: {fileID: 404973809}
   m_Layer: 5
-  m_Name: Arat
+  m_Name: Food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6964,7 +6964,7 @@ GameObject:
   - component: {fileID: 524718311}
   - component: {fileID: 524718310}
   m_Layer: 5
-  m_Name: Agricultor
+  m_Name: Food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7310,7 +7310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1981132, g: 0.1971787, b: 0.1971787, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10631,7 +10631,7 @@ GameObject:
   - component: {fileID: 764424498}
   - component: {fileID: 764424497}
   m_Layer: 5
-  m_Name: Caveman
+  m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17887,7 +17887,7 @@ GameObject:
   - component: {fileID: 1187839958}
   - component: {fileID: 1187839957}
   m_Layer: 5
-  m_Name: Shaman
+  m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18753,7 +18753,7 @@ GameObject:
   - component: {fileID: 1233191345}
   - component: {fileID: 1233191344}
   m_Layer: 5
-  m_Name: NeoHouse
+  m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18830,7 +18830,7 @@ GameObject:
   - component: {fileID: 1247845113}
   - component: {fileID: 1247845112}
   m_Layer: 5
-  m_Name: Arat
+  m_Name: Food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19276,7 +19276,7 @@ GameObject:
   - component: {fileID: 1293297698}
   - component: {fileID: 1293297697}
   m_Layer: 5
-  m_Name: HuntersGatheres
+  m_Name: Food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

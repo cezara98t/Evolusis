@@ -28,9 +28,9 @@ public class GameManager : MonoBehaviour
     {
         if (GameData.getFirstTime() == 0)   // este prima data cand utilizatorul deschide jocul
         {
-            tutorialPanel.SetActive(true); 
+            tutorialPanel.SetActive(true);
+            GameData.initAchv();
         }
-
         loadGame();
         LoadText.readJson();
         loadEraText();

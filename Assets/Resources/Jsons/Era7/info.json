@@ -1,39 +1,27 @@
 {
 	name_of_era:"Epoca Postclasică",
 	part_of_era:"Evul Mediu",
-scene:"Preistoria a fost prima si cea mai lunga epoca din istoria omenirii, care s-a intints de la primele urme umane (milioane de ani in urma) pana la aparitia scrierii (mileniul IV i.Hr).",
+scene:"Evul Mediu reprezintă o perioadă de timp între Antichitate și Epoca Morderna, mai exact între secolele V și XV, iar mulți oameni nu cunosc faptul că acesta face parte din istoria Europei. La nivel global, această perioada poartă numele de perioada post-clasică și asemănările, indiferent de regiune, au fost extinderea civilizațiilor și dezvoltarea rețelelor de comerț dintre acestea.
+",
 
 
 
 
-
-health : "
-Samaaaaaaaaaaaani
+health : "Medicina medievală se inspiră din cea a grecilor antici, în special din învățăturile lui Galen și Hippocrate, crezând în doctrina celor patru umori. Doctorii sunt în continuare inaccesibili oamenilor de rând, ei apelând la înțelepți care aveau cunoștințe medicale dobândite din experiențe și povești. O practică întâlnită adesea era sângerarea provocată, crezându-se că, prin eliminarea unei cantități mari de sânge, sănătatea se îmbunătățește, motiv pentru care călugării o practicau regulat. Un lucru important în medicina din Evul Mediu era astrologia, motiv pentru care înainte de a executa o operație complicată, doctorii erau obligați de lege să calculeze poziția lunii. Se credea că, la naștere, personalitatea copilului era influențată de zodiac, doctorii având cu ei un almanah ce îi ajuta să determine poziția stelelor pentru a oferi diagnosticul corect. Atunci când practicile doctorilor nu își făceau efectul, oamenii apelau la rugăciuni pentru a fi tratați. Biserica este cea care are autoritatea și când vine vorba de medicină, spitalele fiind administrate de aceasta și, începând cu secolul XIV, dă acordul disecării corpurilor umane în școlile medicale.
 ",
 
 
 
 
 
-food : "
-Epoca Metalelor
-Utilizarea metalelor conduce la folosirea plugului cu brazdar de fier, ce face ca pamantul sa fie arat mai usor. In acelasi timp, recoltele cresc considerabil.
+food : "Agricultura rămâne în continuare principala activitate a oamenilor, în special a țăranilor, aceștia fiind majoritari. Pământul este important în Evul Mediu, acesta fiind deținut de nobili și muncit de țăranii ce locuiesc pe moșia acestora. Hrana se deosebește în funcție de clasa socială: țăranii depind de cerealele, fructele și legumele cultivate de ei, în timp ce nobilii, pe lângă alimentele cultivate de țărani și produse animale, se bucură de dulciuri, mirodenii și vinuri aduse din Orient [Băluțoiu]. Agricultura se dezvoltă semnificativ deoarece apar morile de vânt și de apă pentru măcinarea cerealelor, se introduce rotația culturilor o dată la trei ani, iar terenurile fertile sunt extinse datorită defrișărilor, desecărilor și a alor astfel de activități, toate acestea conducând la o creștere majoră a recoltelor, deci și a populației.
  ",
 
 
 
 
 
-construction: "
-Epoca Pietrei
-Primii oameni traiesc sub cerul liber. Treptat se adapostesc la marginea stancilor si in pesteri. Mai tarziu, primii oameni construiesc colibe si bordeie. Colibele sunt confectionate din bete de lemn si tusifuri.
+construction: "După căderea Imperiului Roman, orașele scad în popularitate, majoritatea oamenilor ducându-și viața la sat. Nobilii locuiau în castele, iar în jurul acestora, adăpostite de ziduri, se aflau și locuințele țăranilor care munceau pământul. În funcție de zona în care locuiau, casele erau construite din materialele ce se găseau în abundență: la câmpie din lemn și chirpici, iar la munte din lemn și piatră. Acestea aveau de cele mai multe ori o singură cameră în care, pe lângă familia numeroasă, trăiau iarna și animalele în scopul de a menține căldura atunci când vatra era stinsă. Din secolul XI orașele încep să capete, din nou, importanță. Acestea erau fortificate cu ziduri și turnuri de apărare, fiecare având o catedrală, o piață și o primărie. Datorită închiderii orașelor între ziduri, casele erau îngrămădite, străzile înguste, iar canalizările inexistente, motiv pentru care acestea erau medii propice primejdiilor (incendii, epidemii).
 
-Revolutia neolitica
-Agricultura este motivul pentru care oamenii, pana acum nomazi, devin sedentari. Astfel, in Neolitic apar asezari construite cu forma circulara si cu pereti din chirpici, in centrul locuintei aflandu-se o vatra de foc si o piatra de macinat cereale. Se folosesc si caramizi de lut.
-
-
-Epoca Metalelor
-
-Odat? cu produc?ia în mas? a uneltelor ?i armelor din o?el, epoca a înregistrat progrese în arhitectur?, cu case cu patru camere, unele completate cu grajduri pentru animale, care se al?tur? mai multor forturi de dealuri rudimentare, precum ?i palate regale, temple ?i alte structuri religioase. De asemenea, a avut loc planificarea urban? timpurie, blocuri de case fiind ridicate de-a lungul str?zilor pavate sau pietruite ?i a sistemelor de ap? puse în aplicare.
 "
 }

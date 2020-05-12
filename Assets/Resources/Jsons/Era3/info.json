@@ -1,39 +1,28 @@
 {
 	name_of_era:"Preistorie",
 	part_of_era:"Epoca Metalelor",
-scene:"Preistoria a fost prima si cea mai lunga epoca din istoria omenirii, care s-a intints de la primele urme umane (milioane de ani in urma) pana la aparitia scrierii (mileniul IV i.Hr).",
-
+scene:"În ultima epocă a Preistoriei, Epoca Metalelor, după cum sugerează și numele, oamenii inventează metalurgia. Primele metale utilizate au fost cuprul, cositorul, aurul și argintul, mai apoi descoperindu-se că prin combinarea acestora se obțin materiale mai puternice, cel mai folosit aliaj la începutul epocii fiind bronzul, dând astfel naștere Epocii Bronzului. Odată cu extragerea fierului începe Epoca Fierului, oamenii renunțând complet la folosirea pietrelor pentru construirea uneltelor și armelor.
+",
 
 
 
 
 health : "
-Samaaaaaaaaaaaani
-",
+În Preistorie, nu existau destule cunoștințe pentru vindecarea oamenilor, ei folosindu-se în mare parte de magie pentru a rezolva orice fel de problemă ce ținea de corpul uman. Totuși, unii oameni aveau sensul realității, acoperind rănile cu grăsime sau argilă și învelindu-le cu piei de animale sau scoarță de copac sau acoperind membrele rupte în lut, care se întărea la soare, lăsându-le să se vindece. Cu toate acestea, oamenii primitivi nu înțelegeau ce cauzează bolile, crezând că sunt blestemați, posedați de spirite rele. O “operație” întâlnită în această perioada este perforarea craniului, care se presupunea că alungă aceste spirite, unii oameni reușind să supraviețuiască, osul crescând înapoi (nu în totalitate). Astfel, oamenii din Preistorie erau vindecați, în majoritatea timpului, de către șamani.	
+Se consideră că șamanii există de la începutul lumii, ei fiind singurii care pot comunica cu Creatorul. Șamanismul presupune vindecarea sufletului întâi de toate, aducerea armoniei în minte și corp. Șamanii ajutau oamenii să renunțe la ego, să se purifice și să își restabilească stima de sine prin diferite ritualuri ce presupuneau cântece, dansuri, rugăciuni sau folosirea anumitor ierburi. Șamanii folosesc ierburile nu pentru compuși, ci pentru spiritele care trăiesc în ele. Se crede că ei visau plante și experimentau pentru a vedea efectele lor, pregătind ceaiuri sau băi pentru spălarea rănilor.",
 
 
 
 
 
 food : "
-Epoca Metalelor
-Utilizarea metalelor conduce la folosirea plugului cu brazdar de fier, ce face ca pamantul sa fie arat mai usor. In acelasi timp, recoltele cresc considerabil.
- ",
+Descoperirea metalurgiei a ușurat munca agricultorilor. Au apărut sulița cu vârf de fier, secera, plugul cu brazdar de fier, tras cu ajutorul a doi boi și multe alte unelte ce au ajutat la realizarea sarcinilor agricole eficient și într-un timp mult mai scurt față de epocile anterioare. Astfel, recoltele cresc semnificativ, drept consecință crescând și populația. Un animal important pentru oamenii Epocii Fierului era vaca, ei folosindu-i carnea, laptele pentru producerea altor alimente, precum untul și brânza, coarnele drept pahare și pielea pentru producerea hainelor și încălțămintelor. ",
 
 
 
 
 
 construction: "
-Epoca Pietrei
-Primii oameni traiesc sub cerul liber. Treptat se adapostesc la marginea stancilor si in pesteri. Mai tarziu, primii oameni construiesc colibe si bordeie. Colibele sunt confectionate din bete de lemn si tusifuri.
-
-Revolutia neolitica
-Agricultura este motivul pentru care oamenii, pana acum nomazi, devin sedentari. Astfel, in Neolitic apar asezari construite cu forma circulara si cu pereti din chirpici, in centrul locuintei aflandu-se o vatra de foc si o piatra de macinat cereale. Se folosesc si caramizi de lut.
-
-
-Epoca Metalelor
-
-Odat? cu produc?ia �n mas? a uneltelor ?i armelor din o?el, epoca a �nregistrat progrese �n arhitectur?, cu case cu patru camere, unele completate cu grajduri pentru animale, care se al?tur? mai multor forturi de dealuri rudimentare, precum ?i palate regale, temple ?i alte structuri religioase. De asemenea, a avut loc planificarea urban? timpurie, blocuri de case fiind ridicate de-a lungul str?zilor pavate sau pietruite ?i a sistemelor de ap? puse �n aplicare.
+Arhitectura se dezvoltă semnificativ în Epoca Metalelor, apărând case cu patru camere, unele având și grajd pentru animale. Atunci începe dezvoltarea primelor orașe, în mare parte pe dealuri fortificate, având case plasate de-a lungul aleelor pavate sau pietruite. Majoritatea caselor din aceste orașe erau simple, rotunde, făcute din noroi și lemn, cu acoperiș de paie, în jurul cărora oamenii se îngrijeau de diferite animale: capre, oi, porci, vaci, gâște, găini.
 "
 }

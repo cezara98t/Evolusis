@@ -24,16 +24,24 @@ class GameData
 
     public static Chromozome population_abilities = new Chromozome();
 
-    public static Dictionary<string, int> achievements = new Dictionary<string, int> { { "Image", 1 }, {"Image (1)", 0 }, { "Image (2)", 1 }, { "Image (3)", 0 }, { "Image (4)", 0 }, { "Image (5)", 0 }, { "Image (6)", 0 }, { "Image (7)", 0 } };
+    public static Dictionary<string, int> achievements;
     
     public static string getGameAchv()
     {
+        string imageName = "Image (4)";
         if (population_abilities.abilities["strength"] == 1)
         {
-            achievements["Image (3)"] = 1;
-            return "Image (3)";
+            imageName = "Image (3)";
         }
-        return "Image (4)";
+        achievements[imageName] = 1;
+        PlayerPrefs.SetString("achievements", JsonConvert.SerializeObject(achievements));
+        return imageName;
+    }
+
+    public static void initAchv()
+    {
+        achievements = new Dictionary<string, int> { { "Image", 0 }, { "Image (1)", 0 }, { "Image (2)", 0 }, { "Image (3)", 0 }, { "Image (4)", 0 }, { "Image (5)", 0 }, { "Image (6)", 0 }, { "Image (7)", 0 } };
+        PlayerPrefs.SetString("achievements", JsonConvert.SerializeObject(achievements));
     }
 
     public static void restoreEnergy() { energy = 20; }
@@ -62,6 +70,7 @@ class GameData
         energy = PlayerPrefs.GetInt("energy");
         currentMainPanelIndex = PlayerPrefs.GetInt("currentMainPanelIndex");
         population_abilities = JsonConvert.DeserializeObject<Chromozome>(PlayerPrefs.GetString("abilities"));
+        achievements = JsonConvert.DeserializeObject<Dictionary<string, int>>(PlayerPrefs.GetString("achievements"));
 
     }
 

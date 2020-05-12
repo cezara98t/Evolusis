@@ -1,39 +1,27 @@
 {
 	name_of_era:"Antichitate",
 	part_of_era:"Orientul Antic",
-scene:"Preistoria a fost prima si cea mai lunga epoca din istoria omenirii, care s-a intints de la primele urme umane (milioane de ani in urma) pana la aparitia scrierii (mileniul IV i.Hr).",
+scene:"
+",
 
 
 
 
-
-health : "
-Samaaaaaaaaaaaani
+health : "Când vine vorba de tratarea bolilor, oamenii din Orientul Antic nu renunță la ideea că acestea sunt cauzate de ființe supranaturale, fie ele zei sau fantome ale membrilor de familie morți. Pentru a trata boala, oamenii trebuiau să marturiseaza păcatele pe care le-au săvârșit, iar doctorii rosteau incantații și foloseau amulete pentru a încerca să-i salveze. Totuși, existau doctori care încercau leacuri cu diferite plante, recomandau diete și efectuau intervenții chirugicale, spălandu-se pe mâini și folosind instrumente precum clește, bisturiu și foarfece. Considerat “primul medic” și apoi zeu, Imhotep, arhitect din Egipt, considera că boala apare din cauze naturale, nu din mânia zeilor. Rănile (cauzate de lupte, animale) nu erau tratate prin farmece datorită ideii de cauză-efect, acestea fiind tratate cu medicamente și bangajate. Pentru a îndeplini atribuțiile de doctor, atât bărbații, cât și femeile din Egipt, trebuiau să învețe în “Casa Vieții”, o școală în care se depozitau papirusuri cu învățături medicale și predau cei deveniți deja doctori.
 ",
 
 
 
 
 
-food : "
-Epoca Metalelor
-Utilizarea metalelor conduce la folosirea plugului cu brazdar de fier, ce face ca pamantul sa fie arat mai usor. In acelasi timp, recoltele cresc considerabil.
+food : "Datorită mediului natural din Orient, oamenii dezvoltă în continuare agricultura, principala lor activitate, așezându-se în zone învecinate apelor. Un rol important în agricultură l-au avut fluvii precum Tigru, Eufrat și Nil, aceastea aducând în urma revărsării minereuri ce făceau pământurile fertile și ușor de lucrat. În Mesopotamia (“ținutul dintre râuri”, aflată între Tigru și Eufrat) oamenii au realizat că pot săpa canale să străbată câmpurile, irigand astfel recoltele. Având o recolta bogată constând majoritar din cereale, pâinea devine alimentul principal și berea devine băutură săracilor, vinul fiind cea a bogaților.
+	Totuși, unii oamenii duc o viață seminomadă, deplasându-se mereu în căutarea pășunilor (uneori creându-le chiar ei, defrișând păduri) pentru a putea crește animale precum oi, cai, porci sau păsări, ocupându-se și de vânat, atunci când animale sălbatice le amenințau turmele. Casele acestora erau construite în așa fel încât să fie ușor de demontat și transportat, folosind materiale precum piei de animale și oase.
  ",
 
 
 
 
 
-construction: "
-Epoca Pietrei
-Primii oameni traiesc sub cerul liber. Treptat se adapostesc la marginea stancilor si in pesteri. Mai tarziu, primii oameni construiesc colibe si bordeie. Colibele sunt confectionate din bete de lemn si tusifuri.
-
-Revolutia neolitica
-Agricultura este motivul pentru care oamenii, pana acum nomazi, devin sedentari. Astfel, in Neolitic apar asezari construite cu forma circulara si cu pereti din chirpici, in centrul locuintei aflandu-se o vatra de foc si o piatra de macinat cereale. Se folosesc si caramizi de lut.
-
-
-Epoca Metalelor
-
-Odat? cu produc?ia în mas? a uneltelor ?i armelor din o?el, epoca a înregistrat progrese în arhitectur?, cu case cu patru camere, unele completate cu grajduri pentru animale, care se al?tur? mai multor forturi de dealuri rudimentare, precum ?i palate regale, temple ?i alte structuri religioase. De asemenea, a avut loc planificarea urban? timpurie, blocuri de case fiind ridicate de-a lungul str?zilor pavate sau pietruite ?i a sistemelor de ap? puse în aplicare.
+construction: "Arhitectura caselor din Antichitate evoluează semnificativ. În Mesopotamia, hambarele și unele case erau construite din trestie, altele erau construite din cărămizi de lut uscate la soare sau arse în cuptoare, având acoperișuri plate și curți interioare. Toate aceste case adăposteau mai multe familii din același trib. Tot în Mesopotamia apar și primele orașe-state, conduse de un rege, formate din o cetate și teritoriul din jurul acesteia. Un important astfel de oraș era Babilonul, principala clădire din acesta fiind templul închinat zeului Marduk, acoperit cu aur. În Orientul Antic au fost construite multe astfel de clădiri, închinate zeilor sau anumitor suverani, cele mai importante fiind templele (clădiri destinate activităților religioase), zigguratele (monumente religioase cuprinzând temple și clădiri administrative) și piramidele (morminte regale ale faraonilor).
 "
 }
