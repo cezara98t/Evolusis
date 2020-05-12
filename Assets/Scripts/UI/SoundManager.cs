@@ -18,7 +18,9 @@ public class SoundManager : MonoBehaviour
     private AudioSource audioSourceJob;
     //perechi de forma (nume activitate, indice sunet din lista de sunete jobSounds)
     private Dictionary<string, int> jobSoundsByName = new Dictionary<string, int> { {"Era1/Health", 0 }, { "Era2/Health", 0 } , { "Era3/Health", 0 },
-                                                                             {"Era2/House",1 }, {"Era3/House",1}, {"Era2/Food",2} };
+                                                                                    {"Era2/House",1 }, {"Era3/House",1},
+                                                                                    {"Era2/Food",2}, {"Era6/Food",2}, {"Era7/Food",2},
+                                                                                    {"Era5/Food",3} };
     //perechi de forma (nume era, indice sunet din lista de sunete background_sounds)
     private Dictionary<string, int> eraSoundsByName = new Dictionary<string, int> { { "Era1",0}, { "Era2", 0 }, { "Era3", 0 }, { "Era4",1},
                                                                             { "Era5",2},{ "Era6",3}, { "Era7",4}, { "Era8",5}, { "Era9",0}};
