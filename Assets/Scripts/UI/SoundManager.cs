@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class SoundManager : MonoBehaviour
 {
     private static SoundManager _instance;
-    
+
+    public static SoundManager Instance { get { return _instance; } }
     public AudioClip[] background_sounds;
     public AudioClip[] jobSounds;
     public GameObject soundManagerGO;
@@ -32,7 +33,6 @@ public class SoundManager : MonoBehaviour
             _instance = this;
         }
     }
-    public static SoundManager Instance { get { return _instance; } }
 
 
     void Start()

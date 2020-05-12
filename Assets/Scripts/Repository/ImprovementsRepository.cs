@@ -16,7 +16,8 @@ public class ImprovementsRepository : IRepository<List<ButtonData>>
     }
     public void read()
     {
-        TextAsset t = Resources.Load<UnityEngine.TextAsset>("Jsons/improvements");
+        string filename = "improvements";
+        TextAsset t = Resources.Load<UnityEngine.TextAsset>("Jsons/"+filename);
         buttons = JsonConvert.DeserializeObject<List<ButtonData>>(t.ToString());
     }
 }

@@ -17,7 +17,8 @@ public class DisastersRepository : IRepository<List<DisasterButtonData>>
     }
     public void read()
     {
-        TextAsset t = Resources.Load<UnityEngine.TextAsset>("Jsons/disasters");
+        string filename = "disasters";
+        TextAsset t = Resources.Load<UnityEngine.TextAsset>("Jsons/"+filename);
         buttons = JsonConvert.DeserializeObject<List<DisasterButtonData>>(t.ToString());
     }
 }

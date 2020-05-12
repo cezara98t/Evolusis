@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
  interface IValidator<in Obj>
-    {
-     string validate(Obj o);
-    }
+ {
+    string validate(Obj o);
+ }
 
