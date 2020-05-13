@@ -59,6 +59,7 @@ public class SoundManager : MonoBehaviour
         {
             audioSourceJob.clip = jobSounds[jobSoundsByName[GameData.mainPanel.name + "/" + GameData.currentJobPanel.name]];
             if (muted == false) audioSourceJob.Play();
+            audioSourceJob.volume = 1;
         }
         catch(Exception e)
         {
@@ -80,17 +81,18 @@ public class SoundManager : MonoBehaviour
     public void playMainSound() {
         audioSourceBackground.clip = background_sounds[eraSoundsByName[GameData.mainPanel.name]];
         audioSourceBackground.Play();
+        audioSourceBackground.volume = 1;
     }
 
     private void mute() {
-        audioSourceJob.Stop();
-        audioSourceBackground.Stop();
+        audioSourceJob.volume = 0;
+        audioSourceBackground.volume = 0;
     }
 
     private void unmute() {
-        audioSourceBackground.Play();
-        if(audioSourceJob!=null)
-            audioSourceJob.Play();
+        audioSourceBackground.volume = 1;
+        if (audioSourceJob.clip != null)
+            audioSourceJob.volume = 1;
     }
 
     public void changeMute() {

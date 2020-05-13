@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject endOfEraPanel;
     [SerializeField]
     private GameObject[] mainPanels;
+    [SerializeField] private Text info_status_menu;
 
     public GameObject eraInfo;
     public GameObject lifeInfo;
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
     private GameObject return_button;
     private GameObject qmark_button;
     private GameObject book_button;
+    
 
 
 
@@ -32,6 +34,7 @@ public class GameManager : MonoBehaviour
             GameData.initAchv();
         }
         loadGame();
+        info_status_menu.text = "";
         LoadText.readJson();
         loadEraText();
         GameData.mainPanel = mainPanels[GameData.currentMainPanelIndex];
@@ -106,7 +109,7 @@ public class GameManager : MonoBehaviour
         LoadText.readJson();
         loadEraText();
 
-        if (GameData.currentMainPanelIndex == 6) //la final o sa fie 8 cand sunt toate !!
+        if (GameData.currentMainPanelIndex == mainPanels.Length) 
         {
             eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
         }
@@ -128,6 +131,8 @@ public class GameManager : MonoBehaviour
     public void saveGame()
     {
         GameData.saveGame();
+        info_status_menu.gameObject.SetActive(true);
+        info_status_menu.text = "Joc salvat!";
     }
 
     public void loadGame()
@@ -143,12 +148,15 @@ public class GameManager : MonoBehaviour
         EnergyBarManager.Instance.refreshEnergy();
         LoadText.readJson();
         loadEraText();
-        if (GameData.currentMainPanelIndex == 6) //la final o sa fie 8 cand sunt toate !!
+        if (GameData.currentMainPanelIndex == mainPanels.Length) 
         {
             eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
         }
 
         SoundManager.Instance.playMainSound();
+
+        info_status_menu.gameObject.SetActive(true);
+        info_status_menu.text = "Joc încărcat!";
     }
 
     public void newGame()
@@ -165,6 +173,9 @@ public class GameManager : MonoBehaviour
         loadEraText();
 
         SoundManager.Instance.playMainSound();
+
+        info_status_menu.gameObject.SetActive(true);
+        info_status_menu.text = "Joc nou!";
     }
 
 
