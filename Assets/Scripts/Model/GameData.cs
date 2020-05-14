@@ -26,17 +26,6 @@ class GameData
 
     public static Dictionary<string, int> achievements;
     
-    public static string getGameAchv()
-    {
-        string imageName = "Image (4)";
-        if (population_abilities.abilities["strength"] == 1)
-        {
-            imageName = "Image (3)";
-        }
-        achievements[imageName] = 1;
-        PlayerPrefs.SetString("achievements", JsonConvert.SerializeObject(achievements));
-        return imageName;
-    }
 
     public static void initAchv()
     {
@@ -83,6 +72,69 @@ class GameData
         GameData.food = 0;
         GameData.energy = 20;
         GameData.currentMainPanelIndex = 0;
+    }
+
+
+
+    public static string getGameAchv()
+    {
+        string imageName = "Image (7)"; //novice, daca nu intra in nici un if
+
+        if (population_abilities.abilities["strength"] == 1)
+        {
+            imageName = "Image (2)";
+            if (achievements[imageName] == 0) //daca este o medalie noua, nu trebuie cautata alta
+                goto FoundNew;
+        }
+
+        if (population_abilities.abilities["patience"] == 1)
+        {
+            imageName = "Image";
+            if (achievements[imageName] == 0)
+                goto FoundNew;
+        }
+
+        if (population_abilities.abilities["spirituality"] == 1)
+        {
+            imageName = "Image (4)";
+            if (achievements[imageName] == 0)
+                goto FoundNew;
+        }
+
+        if (population_abilities.abilities["intelligence"] == 1)
+        {
+            imageName = "Image (1)";
+            if (achievements[imageName] == 0)
+                goto FoundNew;
+        }
+
+        if (population_abilities.abilities["agility"] == 1)
+        {
+            imageName = "Image (3)";
+            if (achievements[imageName] == 0)
+                goto FoundNew;
+        }
+
+        if (population_abilities.abilities["resources_resistance"] == 1 &&
+            population_abilities.abilities["food_resistance"] == 1 &&
+            population_abilities.abilities["people_resistance"] == 1)
+        {
+            imageName = "Image (5)";
+            if (achievements[imageName] == 0)
+                goto FoundNew;
+        }
+
+        if (population_abilities.calculateFitness() == 1)
+        {
+            imageName = "Image (6)";
+            if (achievements[imageName] == 0)
+                goto FoundNew;
+        }
+
+        FoundNew:
+        achievements[imageName] = 1;
+        PlayerPrefs.SetString("achievements", JsonConvert.SerializeObject(achievements));
+        return imageName;
     }
 
 }

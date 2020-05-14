@@ -12,10 +12,6 @@ public class Chromozome
     {
         abilities = new Dictionary<string, double>();
         abilities.Add("intelligence", 0);
-        abilities.Add("fire_resistance", 0);
-        abilities.Add("swimming_ability", 0);
-        abilities.Add("diseases_resistance", 0);
-        abilities.Add("poison_resistance", 0);
         abilities.Add("strength", 0);
         abilities.Add("spirituality", 0);
         abilities.Add("patience", 0);
