@@ -102,7 +102,8 @@ public class GameManager : MonoBehaviour
         GameData.restoreEnergy();
         EnergyBarManager.Instance.refreshEnergy();
         if(currentJobPanel!=null) jobToMain();
-        GameData.currentMainPanelIndex++;
+        if(GameData.currentMainPanelIndex<mainPanels.Length-1)
+            GameData.currentMainPanelIndex++;
         changeMainPanel();
         EndOfEraManager.Instance.showDisasters();
 

@@ -1,6 +1,34 @@
 [
 {
-	text:"Practica un ritual de fertilitate",
+	text:"Învață despre doctrina celor patru umori",
+	subtext:"",
+	requested_ability:"spirituality",
+	requested_ability_percentage:0.5,
+	affected_food:0,
+	affected_resources:0,
+	affected_people:10,
+	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Descoperă anatomia",
+	subtext:"",
+	requested_ability:"spirituality",
+	requested_ability_percentage:0.5,
+	affected_food:0,
+	affected_resources:0,
+	affected_people:10,
+	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Caută medici grecești",
 	subtext:"",
 	requested_ability:"spirituality",
 	requested_ability_percentage:0.5,

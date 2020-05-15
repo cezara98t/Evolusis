@@ -1,5 +1,5 @@
 [{
-	text:"Practica ritual pentru vindecarea sufletului",
+	text:"Practică ritual pentru vindecarea sufletului",
 	subtext:"",
 	requested_ability:"spirituality",
 	requested_ability_percentage:0.3,
@@ -25,7 +25,7 @@
 	}
 },
 	{
-	text:"Experimenteaza ceaiuri din plante noi",
+	text:"Experimentează ceaiuri din plante noi",
 	subtext:"",
 	requested_ability:"",
 	requested_ability_percentage:0.0,
@@ -51,7 +51,7 @@
 	}
 },
 {
-	text:"Practica un ritual de fertilitate",
+	text:"Practică un ritual de fertilitate",
 	subtext:"",
 	requested_ability:"spirituality",
 	requested_ability_percentage:0.5,
@@ -77,7 +77,7 @@
   	}
 },
 {
-	text:"Inlatura spiritele rele",
+	text:"Înlătură spiritele rele",
 	subtext:"",
 	requested_ability:"spirituality",
 	requested_ability_percentage:0.0,

@@ -1,6 +1,6 @@
 [
 {
-	text:"Ara pamantul",
+	text:"Muncește pământul",
 	subtext:"Abilitatile necesare agriculturii se imbunatatesc.",
 	requested_ability:"patience",
 	requested_ability_percentage:0,
@@ -10,7 +10,49 @@
 	affected_chromozome:null
 },
 {
-	text:"Planteaza orz",
+	text:"Îngrijește animale domestice",
+	subtext:"",
+	requested_ability:"patience",
+	requested_ability_percentage:0.5,
+	affected_food:100,
+	affected_resources:0,
+	affected_people:00,
+	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Transportă alimente din Orient",
+	subtext:"",
+	requested_ability:"patience",
+	requested_ability_percentage:0.5,
+	affected_food:100,
+	affected_resources:0,
+	affected_people:00,
+	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Macină cereale",
+	subtext:"",
+	requested_ability:"patience",
+	requested_ability_percentage:0.5,
+	affected_food:100,
+	affected_resources:0,
+	affected_people:00,
+	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Extinde terenurile fertile",
 	subtext:"",
 	requested_ability:"patience",
 	requested_ability_percentage:0.5,

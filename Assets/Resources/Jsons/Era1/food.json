@@ -77,7 +77,7 @@
   		}
 	}
 },{
-	text:"Caută mâncare",
+	text:"Caută fructe",
 	subtext:"",
 	requested_ability:"intelligence",
 	requested_ability_percentage:0.32,
@@ -103,7 +103,7 @@
 	}
 },
 {
-	text:"Caută mâncare 2",
+	text:"Caută legume",
 	subtext:"",
 	requested_ability:"intelligence",
 	requested_ability_percentage:0.32,
@@ -129,7 +129,7 @@
 	}
 },
 {
-	text:"Caută mâncare 3",
+	text:"Caută plante medicinale",
 	subtext:"",
 	requested_ability:"intelligence",
 	requested_ability_percentage:0.32,

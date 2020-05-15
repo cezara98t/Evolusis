@@ -1,6 +1,6 @@
 [
 {
-	text:"Ara pamantul",
+	text:"Muncește pământul",
 	subtext:"Abilitatile necesare agriculturii se imbunatatesc.",
 	requested_ability:"patience",
 	requested_ability_percentage:0,
@@ -10,7 +10,49 @@
 	affected_chromozome:null
 },
 {
-	text:"Planteaza orz",
+	text:"Conservă mâncarea",
+	subtext:"",
+	requested_ability:"patience",
+	requested_ability_percentage:0.5,
+	affected_food:100,
+	affected_resources:0,
+	affected_people:00,
+	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Cumpără frigidere cu gheață",
+	subtext:"",
+	requested_ability:"patience",
+	requested_ability_percentage:0.5,
+	affected_food:100,
+	affected_resources:0,
+	affected_people:00,
+	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Fabrică bere",
+	subtext:"",
+	requested_ability:"patience",
+	requested_ability_percentage:0.5,
+	affected_food:100,
+	affected_resources:0,
+	affected_people:00,
+	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:null
+},
+{
+	text:"Coace biscuiți",
 	subtext:"",
 	requested_ability:"patience",
 	requested_ability_percentage:0.5,
