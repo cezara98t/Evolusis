@@ -102,15 +102,14 @@ public class GameManager : MonoBehaviour
         GameData.restoreEnergy();
         EnergyBarManager.Instance.refreshEnergy();
         if(currentJobPanel!=null) jobToMain();
-        if(GameData.currentMainPanelIndex<mainPanels.Length-1)
-            GameData.currentMainPanelIndex++;
+        GameData.currentMainPanelIndex++;
         changeMainPanel();
         EndOfEraManager.Instance.showDisasters();
 
         LoadText.readJson();
         loadEraText();
 
-        if (GameData.currentMainPanelIndex == mainPanels.Length) 
+        if (GameData.currentMainPanelIndex == mainPanels.Length - 1) 
         {
             eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
         }
