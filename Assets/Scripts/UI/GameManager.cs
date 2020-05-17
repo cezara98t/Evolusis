@@ -148,7 +148,7 @@ public class GameManager : MonoBehaviour
         EnergyBarManager.Instance.refreshEnergy();
         LoadText.readJson();
         loadEraText();
-        if (GameData.currentMainPanelIndex == mainPanels.Length) 
+        if (GameData.currentMainPanelIndex == mainPanels.Length - 1) 
         {
             eraInfo.transform.Find("endGame_button").gameObject.SetActive(true);
         }
