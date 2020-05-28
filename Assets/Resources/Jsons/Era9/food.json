@@ -1,68 +1,123 @@
 [
 {
 	text:"Muncește pământul",
-	subtext:"Abilitatile necesare agriculturii se imbunatatesc.",
+	subtext:"Abilitățile necesare agriculturii se îmbunătățesc.",
 	requested_ability:"patience",
-	requested_ability_percentage:0,
+	requested_ability_percentage:0.0,
 	affected_food:0,
 	affected_resources:0,
 	affected_people:0,
-	affected_chromozome:null
+	bad_message:"",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     	}
+	}
 },
 {
 	text:"Mergi în piață",
 	subtext:"",
-	requested_ability:"patience",
-	requested_ability_percentage:0.5,
-	affected_food:100,
+	requested_ability:"",
+	requested_ability_percentage:0.0,
+	affected_food:0,
 	affected_resources:0,
-	affected_people:00,
-	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	affected_people:0,
+	bad_message:"",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     
 },
 {
 	text:"Mergi la magazin",
 	subtext:"",
-	requested_ability:"patience",
-	requested_ability_percentage:0.5,
-	affected_food:100,
+	requested_ability:"",
+	requested_ability_percentage:0.0,
+	affected_food:0,
 	affected_resources:0,
-	affected_people:00,
-	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	affected_people:0,
+	bad_message:"",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     
 },
 {
 	text:"Ocupă-te de grădina din spatele casei",
 	subtext:"",
-	requested_ability:"patience",
-	requested_ability_percentage:0.5,
-	affected_food:100,
+	requested_ability:"",
+	requested_ability_percentage:0.0,
+	affected_food:0,
 	affected_resources:0,
-	affected_people:00,
-	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	affected_people:0,
+	bad_message:"",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     
 },
 {
 	text:"Inventează noi rețete",
 	subtext:"",
-	requested_ability:"patience",
-	requested_ability_percentage:0.5,
-	affected_food:100,
+	requested_ability:"",
+	requested_ability_percentage:0.0,
+	affected_food:0,
 	affected_resources:0,
-	affected_people:00,
-	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	affected_people:0,
+	bad_message:"",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     
 }
 ]

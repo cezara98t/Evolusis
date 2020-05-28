@@ -3,7 +3,7 @@
 	text:"Vânează un mamut",
 	subtext:"Vei primi mâncare și resurse.",
 	requested_ability:"strength",
-	requested_ability_percentage:0.25,
+	requested_ability_percentage:0.12,
 	affected_food:70,
 	affected_resources:10,
 	affected_people:0,
@@ -13,42 +13,40 @@
 	lose_people:10,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.002,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
+	    "intelligence": 0.0,
 	    "strength": 0.04,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
-	    "agility": 0.01
-  		}
+	    "patience": 0.005,
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
 	}
 },
 {
 	text:"Vânează iepuri",
 	subtext:"",
 	requested_ability:"agility",
-	requested_ability_percentage:0.32,
+	requested_ability_percentage:0,
 	affected_food:50,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"Cine alearga dupa doi iepuri, nu prinde niciunul.\n Iepurii erau prea agili.",
+	bad_message:"Cine aleargă după doi iepuri, nu prinde niciunul.\n Iepurii erau prea agili.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.0,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
+	    "intelligence": 0.001,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.05
-  		}
+	    "agility": 0.05,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     	}
 	}
 },
 {
@@ -59,73 +57,71 @@
 	affected_food:50,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"Oamenii nu au avut destula rabdare.",
+	bad_message:"Oamenii nu au avut destulă răbdare.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
 	    "intelligence": 0.0,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.1,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.03,
-	    "agility": 0.01
-  		}
+	    "patience": 0.01,
+	    "agility": 0.05,	    
+        "food_resistance": 0.01,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     	}
 	}
-},{
+},
+{
 	text:"Caută fructe",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.32,
+	requested_ability_percentage:0.1,
 	affected_food:50,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"Oamenii nu erau destul de inteligenti si au fost otraviti.\n Au murit 10 oameni.",
+	bad_message:"Oamenii nu erau destul de inteligenţi și au fost otrăviţi.\n Au murit 10 oameni.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:10,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.05,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.01,
+	    "intelligence": 0.034,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.01,
-	    "agility": 0.00
-  		}
+	    "patience": 0.0,
+	    "agility": 0.00,	    
+        "food_resistance": 0.01,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
 	}
 },
 {
 	text:"Caută legume",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.32,
+	requested_ability_percentage:0.1,
 	affected_food:50,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"Oamenii nu erau destul de inteligenti si au fost otraviti.\n Au murit 10 oameni.",
+	bad_message:"Oamenii nu erau destul de inteligenţi și au fost otrăviţi.\n Au murit 10 oameni.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:10,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.05,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.01,
+	    "intelligence": 0.034,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.01,
-	    "agility": 0.00
-  		}
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.01,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
 	}
 },
 {
@@ -136,22 +132,21 @@
 	affected_food:50,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"Oamenii nu erau destul de inteligenti si au fost otraviti.\n Au murit 10 oameni.",
+	bad_message:"Oamenii nu erau destul de inteligenţi și au fost otrăviţi.\n Au murit 10 oameni.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:10,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.05,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.01,
+	    "intelligence": 0.034,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.01,
-	    "agility": 0.00
-  		}
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.01,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
 	}
 }
 ]

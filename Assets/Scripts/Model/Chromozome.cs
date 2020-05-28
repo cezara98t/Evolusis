@@ -20,11 +20,10 @@ public class Chromozome
         abilities.Add("resources_resistance", 0);
         abilities.Add("people_resistance", 0);
         List<string> keys = new List<string>(abilities.Keys);
-        foreach (string key in keys)
-        {
-            abilities[key] = RandomGenerator.GetRandomDouble(0,0.2);
-        }
-
+        /* foreach (string key in keys)
+         {
+             abilities[key] = RandomGenerator.GetRandomDouble(0,0.2);
+         }*/
     }
 
     public double calculateFitness()
