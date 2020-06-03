@@ -2,71 +2,126 @@
 {
 	text:"Descoperă modalități de a practica medicina",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.4,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:10000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-100,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.02,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Descoperă un vaccin",
 	subtext:"",
-	requested_ability:"spirituality",
+	requested_ability:"intelligence",
 	requested_ability_percentage:0.5,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:40000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-500,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Efectuează intervenții chirurgicale",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.45,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:30000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.007,
+	    "strength": 0.001,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Studiază",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.3,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:1000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.03,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.005
+     	}
+	}
 },
 {
 	text:"Roagă-te",
 	subtext:"",
 	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability_percentage:0.3,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:1000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.01,
+	    "patience": 0.01,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
+	}
 }
 ]

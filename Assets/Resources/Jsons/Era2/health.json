@@ -1,41 +1,16 @@
-[{
-	text:"Practică ritual pentru vindecarea sufletului",
-	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.3,
-	affected_food:0,
-	affected_resources:0,
-	affected_people:0,
-	bad_message:"Oamenii nu erau destul de spirituali. Ritualul nu a reusit.\n Au murit 5 oameni.",
-	lose_food:0,
-	lose_resources:0,
-	lose_people:5,
-	affected_chromozome:{
-	  "abilities": {
-	    "intelligence": 0.0,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.002,
-	    "strength": 0.0,
-	    "spirituality": 0.02,
-	    "patience": 0.0,
-	    "agility": 0.0
-  		}
-	}
-},
-	{
+[
+{
 	text:"Experimentează ceaiuri din plante noi",
 	subtext:"",
-	requested_ability:"",
-	requested_ability_percentage:0.0,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.02,
 	affected_food:10,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"",
+	bad_message:"Oamenii nu sunt destul de inteligenți și au fost otrăviți.\n Au murit 100 oameni.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
+	lose_people:100,
 	affected_chromozome:{
 	  "abilities": {
 	    "intelligence": 0.02,
@@ -54,11 +29,11 @@
 	text:"Practică un ritual de fertilitate",
 	subtext:"",
 	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability_percentage:0.03,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:1000,
+	bad_message:"Oamenii nu sunt destul de spirituali.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
@@ -69,8 +44,8 @@
 	    "swimming_ability": 0.0,
 	    "diseases_resistance": 0.0,
 	    "poison_resistance": 0.0,
-	    "strength": 0.04,
-	    "spirituality": 0.06,
+	    "strength": 0.0,
+	    "spirituality": 0.016,
 	    "patience": 0.01,
 	    "agility": 0.00
   		}
@@ -84,7 +59,7 @@
 	affected_food:0,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"",
+	bad_message:"Oamenii nu sunt destul de spirituali.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
@@ -96,7 +71,7 @@
 	    "diseases_resistance": 0.0,
 	    "poison_resistance": 0.0,
 	    "strength": 0.0,
-	    "spirituality": 0.1,
+	    "spirituality": 0.01,
 	    "patience": 0.0,
 	    "agility": 0.0
   		}

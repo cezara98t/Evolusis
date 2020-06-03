@@ -3,79 +3,75 @@
 	subtext:"Șansele de a fi afectat de cutremur și tornadă scad.",
 	affected_food:0,
 	affected_resources:0,
-	affected_people:100,
+	affected_people:2000,
 	affected_chromozome:{
 	  "abilities": {
 	    "intelligence": 0.0,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.0
-  		}
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.02,
+        "people_resistance": 0.02
+     	}
 	}
 },
 {
 	text:"Realizează medii pentru protejarea recoltei",
 	subtext:"Șansele de a fi afectat de potop, invazie cu lăcuste și secetă scad.",
-	affected_food:50,
+	affected_food:500,
 	affected_resources:0,
 	affected_people:0,
 	affected_chromozome:{
 	  "abilities": {
 	    "intelligence": 0.0,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.0
-  		}
+	    "agility": 0.0,	    
+        "food_resistance": 0.02,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     	}
 	}
 },
 {
 	text:"Construiește altare pentru zei",
 	subtext:"Spiritualitatea oamenilor crește.",
-	affected_food:10,
+	affected_food:0,
 	affected_resources:0,
-	affected_people:50,
+	affected_people:100,
 	affected_chromozome:{
-	  "abilities": {
+	 "abilities": {
 	    "intelligence": 0.0,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
 	    "strength": 0.0,
-	    "spirituality": 0.0,
+	    "spirituality": 0.03,
 	    "patience": 0.0,
-	    "agility": 0.0
-  		}
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     	}
 	}
 },
 {
 	text:"Caută noi resurse de construcție",
 	subtext:"Dezvoltare în materie de resurse și creșterea populației.",
-	affected_food:10,
-	affected_resources:0,
-	affected_people:50,
+	affected_food:0,
+	affected_resources:200,
+	affected_people:1000,
 	affected_chromozome:{
 	  "abilities": {
 	    "intelligence": 0.0,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.0
-  		}
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.02,
+        "people_resistance": 0.01
+     	}
 	}
 }
 ]

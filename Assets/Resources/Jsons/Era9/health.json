@@ -1,44 +1,77 @@
 [
 {
-	text:"Caută vaccin pentru COVID-19",
+	text:"Descoperă vaccin pentru COVID-19",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.9,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:1000000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-1000,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.1,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.02
+     	}
+	}
 },
 {
 	text:"Studiază",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.3,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:1000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.03,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.005
+     	}
+	}
 },
 {
 	text:"Roagă-te",
 	subtext:"",
 	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability_percentage:0.3,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:1000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "strength": 0.0,
+	    "spirituality": 0.01,
+	    "patience": 0.01,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
+	}
 }
 ]

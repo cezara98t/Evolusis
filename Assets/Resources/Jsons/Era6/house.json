@@ -1,86 +1,152 @@
 [
 {
 	text:"Construiește locuințe de tip domus",
-	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
-	affected_food:0,
-	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	subtext:"Ai nevoie de 100 resurse, 30 hrană.",
+	requested_ability:"strength",
+	requested_ability_percentage:0.4,
+	affected_food:-30,
+	affected_resources:-100,
+	affected_people:10000,
+	bad_message:"Câțiva oameni s-au accidentat.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-1000,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.02,
+	    "spirituality": 0.0,
+	    "patience": 0.005,
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.01,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Construiește locuințe de tip insulae",
-	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
-	affected_food:0,
-	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	subtext:"Ai nevoie de 200 resurse, 50 hrană.",
+	requested_ability:"strength",
+	requested_ability_percentage:0.4,
+	affected_food:-50,
+	affected_resources:-200,
+	affected_people:30000,
+	bad_message:"Câțiva oameni s-au accidentat.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-1000,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.02,
+	    "spirituality": 0.0,
+	    "patience": 0.005,
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.01,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Pictează pereții casei",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"agility",
+	requested_ability_percentage:0.3,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:5000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.0,
+	    "spirituality": 0.01,
+	    "patience": 0.02,
+	    "agility": 0.02,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.01,
+        "people_resistance": 0.0
+     	}
+	}
 },
 {
 	text:"Decoreaza podeaua cu mozaicuri",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"agility",
+	requested_ability_percentage:0.3,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:5000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.02,
+	    "agility": 0.02,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.01,
+        "people_resistance": 0.0
+     	}
+	}
 },
 {
 	text:"Mergi în căutare de resurse",
-	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
-	affected_food:0,
-	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	subtext:"Ai nevoie de 50 hrană.",
+	requested_ability:"strength",
+	requested_ability_percentage:0.3,
+	affected_food:-50,
+	affected_resources:700,
+	affected_people:0,
+	bad_message:"În căutarea resurselor, câțiva oameni s-au accidentat.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-1000,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.02,
+	    "spirituality": 0.0,
+	    "patience": 0.005,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.01,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Construiește o arenă",
-	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
-	affected_food:0,
-	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	subtext:"Ai nevoie de 250 resurse, 100 hrană.",
+	requested_ability:"strength",
+	requested_ability_percentage:0.45,
+	affected_food:-100,
+	affected_resources:-250,
+	affected_people:10000,
+	bad_message:"Câțiva oameni s-au accidentat.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-2000,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.02,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.01,
+        "people_resistance": 0.01
+     	}
+	}
 }
 ]

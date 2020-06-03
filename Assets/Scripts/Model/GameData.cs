@@ -17,10 +17,12 @@ class GameData
 
     public static int currentMainPanelIndex = 0;
 
-    public static int population_size = 1000;
+    public static int population_size = 3000000;
     public static int resources = 0;
     public static int food = 0;
     public static int energy = 20;
+
+    public static int[] factors = new int[] { 1,2,3,4,5,6,7,1000 };
 
     public static Chromozome population_abilities = new Chromozome();
 
@@ -53,7 +55,7 @@ class GameData
     {
         population_size = PlayerPrefs.GetInt("population_size");
         //cand se deschide pentru prima data jocul
-        if (population_size == 0) population_size = 1000;
+        if (population_size == 0) population_size = 3000000;
         resources = PlayerPrefs.GetInt("resources");
         food = PlayerPrefs.GetInt("food");
         energy = PlayerPrefs.GetInt("energy");
@@ -67,7 +69,7 @@ class GameData
     {
         PlayerPrefs.SetInt("first_time", 1);    
         population_abilities = new Chromozome();
-        GameData.population_size = 1000;
+        GameData.population_size = 3000000;
         GameData.resources = 0;
         GameData.food = 0;
         GameData.energy = 20;

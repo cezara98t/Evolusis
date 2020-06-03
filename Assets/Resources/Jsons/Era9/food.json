@@ -3,22 +3,22 @@
 	text:"Muncește pământul",
 	subtext:"Abilitățile necesare agriculturii se îmbunătățesc.",
 	requested_ability:"patience",
-	requested_ability_percentage:0.0,
-	affected_food:0,
+	requested_ability_percentage:0.5,
+	affected_food:250,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"",
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.0,
+	    "intelligence": 0.01,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.01,
 	    "agility": 0.0,	    
-        "food_resistance": 0.0,
+        "food_resistance": 0.01,
         "resources_resistance": 0.0,
         "people_resistance": 0.0
      	}
@@ -27,97 +27,101 @@
 {
 	text:"Mergi în piață",
 	subtext:"",
-	requested_ability:"",
-	requested_ability_percentage:0.0,
-	affected_food:0,
-	affected_resources:0,
+	requested_ability:"agility",
+	requested_ability_percentage:0.4,
+	affected_food:1000,
+	affected_resources:200,
 	affected_people:0,
-	bad_message:"",
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
+	lose_people:-1000,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.0,
-	    "strength": 0.0,
+	    "intelligence": 0.01,
+	    "strength": 0.01,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
-	    "agility": 0.0,	    
-        "food_resistance": 0.0,
-        "resources_resistance": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.01,	    
+        "food_resistance": 0.01,
+        "resources_resistance": 0.005,
         "people_resistance": 0.0
-     
+     }
+ }
 },
 {
 	text:"Mergi la magazin",
 	subtext:"",
-	requested_ability:"",
-	requested_ability_percentage:0.0,
-	affected_food:0,
-	affected_resources:0,
+	requested_ability:"agility",
+	requested_ability_percentage:0.5,
+	affected_food:2000,
+	affected_resources:500,
 	affected_people:0,
-	bad_message:"",
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.0,
-	    "strength": 0.0,
+	    "intelligence": 0.01,
+	    "strength": 0.01,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
-	    "agility": 0.0,	    
-        "food_resistance": 0.0,
-        "resources_resistance": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.01,	    
+        "food_resistance": 0.01,
+        "resources_resistance": 0.005,
         "people_resistance": 0.0
-     
+     }
+ }
 },
 {
 	text:"Ocupă-te de grădina din spatele casei",
 	subtext:"",
-	requested_ability:"",
-	requested_ability_percentage:0.0,
-	affected_food:0,
+	requested_ability:"patience",
+	requested_ability_percentage:0.6,
+	affected_food:500,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"",
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.0,
+	    "intelligence": 0.01,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
+	    "patience": 0.02,
 	    "agility": 0.0,	    
-        "food_resistance": 0.0,
+        "food_resistance": 0.005,
         "resources_resistance": 0.0,
-        "people_resistance": 0.0
-     
+        "people_resistance": 0.01
+     }
+ }
 },
 {
 	text:"Inventează noi rețete",
 	subtext:"",
-	requested_ability:"",
-	requested_ability_percentage:0.0,
-	affected_food:0,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.6,
+	affected_food:500,
 	affected_resources:0,
 	affected_people:0,
-	bad_message:"",
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.0,
+	    "intelligence": 0.02,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
+	    "patience": 0.01,
 	    "agility": 0.0,	    
-        "food_resistance": 0.0,
+        "food_resistance": 0.01,
         "resources_resistance": 0.0,
         "people_resistance": 0.0
-     
+     }
+ }
 }
 ]

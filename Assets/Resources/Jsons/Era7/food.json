@@ -1,68 +1,127 @@
 [
 {
 	text:"Muncește pământul",
-	subtext:"Abilitatile necesare agriculturii se imbunatatesc.",
+	subtext:"Abilitățile necesare agriculturii se îmbunătățesc.",
 	requested_ability:"patience",
-	requested_ability_percentage:0,
-	affected_food:0,
+	requested_ability_percentage:0.5,
+	affected_food:250,
 	affected_resources:0,
 	affected_people:0,
-	affected_chromozome:null
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
+	lose_food:0,
+	lose_resources:0,
+	lose_people:0,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.0,	    
+        "food_resistance": 0.01,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     	}
+	}
 },
 {
 	text:"Îngrijește animale domestice",
 	subtext:"",
 	requested_ability:"patience",
-	requested_ability_percentage:0.5,
-	affected_food:100,
+	requested_ability_percentage:0.45,
+	affected_food:400,
 	affected_resources:0,
-	affected_people:00,
-	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
-	lose_food:0,
+	affected_people:0,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
+	lose_food:-10,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.01,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.01,	    
+        "food_resistance": 0.01,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Transportă alimente din Orient",
 	subtext:"",
-	requested_ability:"patience",
-	requested_ability_percentage:0.5,
-	affected_food:100,
-	affected_resources:0,
-	affected_people:00,
-	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.2,
+	affected_food:500,
+	affected_resources:500,
+	affected_people:1000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-100,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.01,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.01,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Macină cereale",
 	subtext:"",
 	requested_ability:"patience",
 	requested_ability_percentage:0.5,
-	affected_food:100,
+	affected_food:300,
 	affected_resources:0,
 	affected_people:00,
-	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.005,
+	    "spirituality": 0.0,
+	    "patience": 0.015,
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
+	}
 },
 {
 	text:"Extinde terenurile fertile",
 	subtext:"",
-	requested_ability:"patience",
+	requested_ability:"strength",
 	requested_ability_percentage:0.5,
-	affected_food:100,
+	affected_food:200,
 	affected_resources:0,
 	affected_people:00,
-	bad_message:"Oamenii nu au destula rabdare sa are pamantul.",
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.0,
+	    "strength": 0.02,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
+	}
 }
 ]

@@ -2,43 +2,76 @@
 {
 	text:"Învață despre doctrina celor patru umori",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.1,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:1000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
 	lose_people:0,
-	affected_chromozome:null
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.01,
+	    "strength": 0.0,
+	    "spirituality": 0.01,
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     	}
+	}
 },
 {
 	text:"Descoperă anatomia",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.25,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:20000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-1000,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.06,
+	    "strength": 0.003,
+	    "spirituality": 0.0,
+	    "patience": 0.0,
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.03
+     	}
+	}
 },
 {
 	text:"Caută medici grecești",
 	subtext:"",
-	requested_ability:"spirituality",
-	requested_ability_percentage:0.5,
+	requested_ability:"intelligence",
+	requested_ability_percentage:0.2,
 	affected_food:0,
 	affected_resources:0,
-	affected_people:10,
-	bad_message:"Oamenii prezenti nu erau destul de spirituali.",
+	affected_people:1000,
+	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
-	lose_people:0,
-	affected_chromozome:null
+	lose_people:-100,
+	affected_chromozome:{
+	  "abilities": {
+	    "intelligence": 0.04,
+	    "strength": 0.0,
+	    "spirituality": 0.0,
+	    "patience": 0.01,
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.03
+     	}
+	}
 }
 ]
