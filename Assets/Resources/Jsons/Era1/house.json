@@ -1,11 +1,11 @@
 [
 {
 	text:"Construiește corturi",
-	subtext:"Ai nevoie de 100 hrană, 2000 resurse.",
+	subtext:"Ai nevoie de 100 hrană, 300 resurse.",
 	requested_ability:"strength",
 	requested_ability_percentage:0.0,
 	affected_food:-100,
-	affected_resources:-2000,
+	affected_resources:-300,
 	affected_people:400000,
 	bad_message:"",
 	lose_food:0,
@@ -13,16 +13,15 @@
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.002,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
-	    "strength": 0.004,
+	    "intelligence": 0.0,
+	    "strength": 0.01,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.01
-  		}
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.0
+     	}
 	}
 },
 {
@@ -31,7 +30,7 @@
 	requested_ability:"strength",
 	requested_ability_percentage:0.006,
 	affected_food:-50,
-	affected_resources:5000,
+	affected_resources:700,
 	affected_people:0,
 	bad_message:"Oamenii nu erau destul de puternici. Au murit 100.",
 	lose_food:0,
@@ -39,25 +38,24 @@
 	lose_people:100,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.002,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
-	    "strength": 0.04,
+	    "intelligence": 0.001,
+	    "strength": 0.01,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.01
-  		}
+	    "agility": 0.0,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.01,
+        "people_resistance": 0.0
+     	}
 	}
 },
 {
 	text:"Vânează un mamut",
 	subtext:"Vei primi resurse si hrană.",
 	requested_ability:"strength",
-	requested_ability_percentage:0.025,
-	affected_food:400,
-	affected_resources:1000,
+	requested_ability_percentage:0.01,
+	affected_food:300,
+	affected_resources:500,
 	affected_people:0,
 	bad_message:"Mamutul era prea puternic. Au murit 200 de oameni.",
 	lose_food:0,
@@ -65,16 +63,15 @@
 	lose_people:200,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.002,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
-	    "strength": 0.015,
+	    "intelligence": 0.0,
+	    "strength": 0.01,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.01
-  		}
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
 	}
 }
 ]

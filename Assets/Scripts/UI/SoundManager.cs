@@ -22,10 +22,11 @@ public class SoundManager : MonoBehaviour
                                                                                     {"Era2/Food",2}, {"Era6/Food",2}, {"Era7/Food",2},
                                                                                     {"Era5/Food",3},
                                                                                     {"Era8/Health",4},
-                                                                                    {"Era8/Food",5} };
+                                                                                    {"Era8/Food",5},
+                                                                                    {"Era9/Health",6 } };
     //perechi de forma (nume era, indice sunet din lista de sunete background_sounds)
     private Dictionary<string, int> eraSoundsByName = new Dictionary<string, int> { { "Era1",0}, { "Era2", 0 }, { "Era3", 0 }, { "Era4",1},
-                                                                            { "Era5",2},{ "Era6",3}, { "Era7",4}, { "Era8",5}, { "Era9",0}};
+                                                                            { "Era5",2},{ "Era6",3}, { "Era7",4}, { "Era8",5}, { "Era9",6}};
     private bool muted = false;
 
 

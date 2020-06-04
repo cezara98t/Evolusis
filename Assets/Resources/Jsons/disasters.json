@@ -12,8 +12,8 @@
 	    "patience": 0.0,
 	    "agility": 0.0,	    
         "food_resistance": 0.0,
-        "resources_resistance": 0.15,
-        "people_resistance": 0.3
+        "resources_resistance": 0.1,
+        "people_resistance": 0.15
      	}
 	}
 },
@@ -30,7 +30,7 @@
 	    "spirituality": 0.003,
 	    "patience": 0.0,
 	    "agility": 0.0,	    
-        "food_resistance": 0.3,
+        "food_resistance": 0.15,
         "resources_resistance": 0.0,
         "people_resistance": 0.0
      	}
@@ -49,7 +49,7 @@
 	    "spirituality": 0.003,
 	    "patience": 0.001,
 	    "agility": 0.0,	    
-        "food_resistance": 0.25,
+        "food_resistance": 0.1,
         "resources_resistance": 0.0,
         "people_resistance": 0.0
      	}
@@ -68,7 +68,7 @@
 	    "spirituality": 0.0,
 	    "patience": 0.0,
 	    "agility": 0.0,	    
-        "food_resistance": 0.3,
+        "food_resistance": 0.15,
         "resources_resistance": 0.0,
         "people_resistance": 0.0
      	}
@@ -88,8 +88,8 @@
 	    "patience": 0.0,
 	    "agility": 0.01,	    
         "food_resistance": 0.0,
-        "resources_resistance": 0.3,
-        "people_resistance": 0.2
+        "resources_resistance": 0.15,
+        "people_resistance": 0.1
      	}
 	}
 },

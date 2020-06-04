@@ -55,7 +55,7 @@ public class ActionButtonsManager : MonoBehaviour
         {
             EnergyBarManager.Instance.consumeEnergy();
             double requested_ability_percentage = GameData.population_abilities.abilities[button.requested_ability];
-            if (requested_ability_percentage > button.requested_ability_percentage)
+            if (requested_ability_percentage >= button.requested_ability_percentage)
             {
                 doGoodAction(button);
             }

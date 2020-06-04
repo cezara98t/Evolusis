@@ -15,7 +15,7 @@
 	  "abilities": {
 	    "intelligence": 0.01,
 	    "strength": 0.0,
-	    "spirituality": 0.01,
+	    "spirituality": 0.07,
 	    "patience": 0.0,
 	    "agility": 0.0,	    
         "food_resistance": 0.0,
@@ -28,7 +28,7 @@
 	text:"Calculează poziția lunii",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.3,
+	requested_ability_percentage:0.4,
 	affected_food:0,
 	affected_resources:0,
 	affected_people:1000,
@@ -40,7 +40,7 @@
 	  "abilities": {
 	    "intelligence": 0.01,
 	    "strength": 0.0,
-	    "spirituality": 0.01,
+	    "spirituality": 0.05,
 	    "patience": 0.0,
 	    "agility": 0.0,	    
         "food_resistance": 0.0,
@@ -53,7 +53,7 @@
 	text:"Practică sângerarea provocată",
 	subtext:"",
 	requested_ability:"spirituality",
-	requested_ability_percentage:0.4,
+	requested_ability_percentage:0.45,
 	affected_food:0,
 	affected_resources:0,
 	affected_people:200,
@@ -63,9 +63,9 @@
 	lose_people:-100,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.002,
+	    "intelligence": 0.0,
 	    "strength": 0.0,
-	    "spirituality": 0.001,
+	    "spirituality": 0.01,
 	    "patience": 0.0,
 	    "agility": 0.0,	    
         "food_resistance": 0.0,
@@ -115,12 +115,12 @@
 	  "abilities": {
 	    "intelligence": 0.0,
 	    "strength": 0.0,
-	    "spirituality": 0.01,
-	    "patience": 0.01,
+	    "spirituality": 0.02,
+	    "patience": 0.0,
 	    "agility": 0.0,	    
         "food_resistance": 0.0,
         "resources_resistance": 0.0,
-        "people_resistance": 0.01
+        "people_resistance": 0.0
      	}
 	}
 }

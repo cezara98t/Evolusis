@@ -70,7 +70,6 @@ public class EndOfEraManager : MonoBehaviour
             GameData.resources += disaster.affected_resources * factor;
             if (GameData.resources < 0) GameData.resources = 0;
         }
-        factor = GameData.factors[GameData.currentMainPanelIndex - 1];
         if (disaster.min_people_resistance > GameData.population_abilities.abilities["people_resistance"])
         {
             GameData.population_size += disaster.affected_people * factor;
@@ -104,16 +103,20 @@ public class EndOfEraManager : MonoBehaviour
 
     private void doImprovement(ButtonData improvement)
     {
-        int factor =GameData.currentMainPanelIndex;
+        int factor = GameData.currentMainPanelIndex;
         GameData.food += improvement.affected_food * factor;
         GameData.resources += improvement.affected_resources * factor;
-        factor = GameData.factors[GameData.currentMainPanelIndex - 1];
         GameData.population_size += improvement.affected_people * factor;
         GameData.population_abilities.addChromozome(improvement.affected_chromozome);
         improvementsPanel.SetActive(false);
         endOfEraPanel.SetActive(false);
         SoundManager.Instance.playMainSound();
 
+
+      /*  foreach (KeyValuePair<string,double> s in GameData.population_abilities.abilities)
+        {
+            Debug.Log(s.Key+" "+s.Value+"\n");
+        }*/
     }
 
 }

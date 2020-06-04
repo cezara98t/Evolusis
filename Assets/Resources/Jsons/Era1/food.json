@@ -3,9 +3,9 @@
 	text:"Vânează un mamut",
 	subtext:"Vei primi resurse si hrană.",
 	requested_ability:"strength",
-	requested_ability_percentage:0.025,
-	affected_food:400,
-	affected_resources:1000,
+	requested_ability_percentage:0.01,
+	affected_food:300,
+	affected_resources:500,
 	affected_people:0,
 	bad_message:"Mamutul era prea puternic. Au murit 200 de oameni.",
 	lose_food:0,
@@ -13,16 +13,15 @@
 	lose_people:200,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.002,
-	    "fire_resistance": 0.0,
-	    "swimming_ability": 0.0,
-	    "diseases_resistance": 0.0,
-	    "poison_resistance": 0.0,
-	    "strength": 0.015,
+	    "intelligence": 0.0,
+	    "strength": 0.01,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.01
-  		}
+	    "agility": 0.01,	    
+        "food_resistance": 0.0,
+        "resources_resistance": 0.0,
+        "people_resistance": 0.01
+     	}
 	}
 },
 {
@@ -42,8 +41,8 @@
 	    "intelligence": 0.001,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
-	    "agility": 0.02,	    
+	    "patience": 0.01,
+	    "agility": 0.03,	    
         "food_resistance": 0.0,
         "resources_resistance": 0.0,
         "people_resistance": 0.0
@@ -54,7 +53,7 @@
 	text:"Pescuiește",
 	subtext:"",
 	requested_ability:"patience",
-	requested_ability_percentage:0.03,
+	requested_ability_percentage:0.01,
 	affected_food:50,
 	affected_resources:0,
 	affected_people:0,
@@ -67,7 +66,7 @@
 	    "intelligence": 0.0,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.017,
+	    "patience": 0.02,
 	    "agility": 0.0,	    
         "food_resistance": 0.01,
         "resources_resistance": 0.0,
@@ -79,7 +78,7 @@
 	text:"Caută fructe",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.04,
+	requested_ability_percentage:0.03,
 	affected_food:300,
 	affected_resources:0,
 	affected_people:0,
@@ -89,11 +88,11 @@
 	lose_people:100,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.017,
+	    "intelligence": 0.02,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
-	    "agility": 0.00,	    
+	    "patience": 0.01,
+	    "agility": 0.0,	    
         "food_resistance": 0.01,
         "resources_resistance": 0.0,
         "people_resistance": 0.01
@@ -104,7 +103,7 @@
 	text:"Caută legume",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.04,
+	requested_ability_percentage:0.03,
 	affected_food:350,
 	affected_resources:0,
 	affected_people:0,
@@ -114,10 +113,10 @@
 	lose_people:100,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.017,
+	    "intelligence": 0.02,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
+	    "patience": 0.01,
 	    "agility": 0.0,	    
         "food_resistance": 0.01,
         "resources_resistance": 0.0,
@@ -129,7 +128,7 @@
 	text:"Caută plante medicinale",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.05,
+	requested_ability_percentage:0.04,
 	affected_food:100,
 	affected_resources:0,
 	affected_people:0,
@@ -139,10 +138,10 @@
 	lose_people:200,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.02,
+	    "intelligence": 0.025,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.0,
+	    "patience": 0.01,
 	    "agility": 0.0,	    
         "food_resistance": 0.01,
         "resources_resistance": 0.0,

@@ -3,7 +3,7 @@
 	text:"Descoperă vaccin pentru COVID-19",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.9,
+	requested_ability_percentage:1,
 	affected_food:0,
 	affected_resources:0,
 	affected_people:1000000,

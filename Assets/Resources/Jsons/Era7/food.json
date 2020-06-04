@@ -13,7 +13,7 @@
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.01,
+	    "intelligence": 0.0,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.01,
@@ -28,7 +28,7 @@
 	text:"Îngrijește animale domestice",
 	subtext:"",
 	requested_ability:"patience",
-	requested_ability_percentage:0.45,
+	requested_ability_percentage:0.55,
 	affected_food:400,
 	affected_resources:0,
 	affected_people:0,
@@ -39,7 +39,7 @@
 	affected_chromozome:{
 	  "abilities": {
 	    "intelligence": 0.01,
-	    "strength": 0.01,
+	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.01,
 	    "agility": 0.01,	    
@@ -53,10 +53,10 @@
 	text:"Transportă alimente din Orient",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.2,
+	requested_ability_percentage:0.5,
 	affected_food:500,
 	affected_resources:500,
-	affected_people:1000,
+	affected_people:10000,
 	bad_message:"Nu există oameni cu abilitățile necesare încă.",
 	lose_food:0,
 	lose_resources:0,
@@ -64,7 +64,7 @@
 	affected_chromozome:{
 	  "abilities": {
 	    "intelligence": 0.01,
-	    "strength": 0.01,
+	    "strength": 0.002,
 	    "spirituality": 0.0,
 	    "patience": 0.01,
 	    "agility": 0.01,	    
@@ -78,7 +78,7 @@
 	text:"Macină cereale",
 	subtext:"",
 	requested_ability:"patience",
-	requested_ability_percentage:0.5,
+	requested_ability_percentage:0.45,
 	affected_food:300,
 	affected_resources:0,
 	affected_people:00,
@@ -88,10 +88,10 @@
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.01,
-	    "strength": 0.005,
+	    "intelligence": 0.005,
+	    "strength": 0.0,
 	    "spirituality": 0.0,
-	    "patience": 0.015,
+	    "patience": 0.01,
 	    "agility": 0.01,	    
         "food_resistance": 0.0,
         "resources_resistance": 0.0,
@@ -114,9 +114,9 @@
 	affected_chromozome:{
 	  "abilities": {
 	    "intelligence": 0.0,
-	    "strength": 0.02,
+	    "strength": 0.005,
 	    "spirituality": 0.0,
-	    "patience": 0.01,
+	    "patience": 0.0,
 	    "agility": 0.01,	    
         "food_resistance": 0.0,
         "resources_resistance": 0.0,

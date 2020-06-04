@@ -3,7 +3,7 @@
 	text:"Culege măsline",
 	subtext:"",
 	requested_ability:"patience",
-	requested_ability_percentage:0.25,
+	requested_ability_percentage:0.45,
 	affected_food:250,
 	affected_resources:10,
 	affected_people:0,
@@ -13,7 +13,7 @@
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.003,
+	    "intelligence": 0.00,
 	    "strength": 0.001,
 	    "spirituality": 0.0,
 	    "patience": 0.01,
@@ -28,7 +28,7 @@
 	text:"Produ ulei de măsline",
 	subtext:"",
 	requested_ability:"patience",
-	requested_ability_percentage:0.3,
+	requested_ability_percentage:0.5,
 	affected_food:100,
 	affected_resources:0,
 	affected_people:00,
@@ -38,7 +38,7 @@
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.01,
+	    "intelligence": 0.0,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.015,
@@ -53,7 +53,7 @@
 	text:"Îngrijește capre",
 	subtext:"",
 	requested_ability:"patience",
-	requested_ability_percentage:0.31,
+	requested_ability_percentage:0.45,
 	affected_food:250,
 	affected_resources:0,
 	affected_people:00,
@@ -103,7 +103,7 @@
 	text:"Transportă alimente pe mare",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.2,
+	requested_ability_percentage:0.4,
 	affected_food:400,
 	affected_resources:200,
 	affected_people:200,

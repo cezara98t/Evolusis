@@ -10,9 +10,9 @@
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
-	    "agility": 0.0,	    
+	    "agility": 0.1,	    
         "food_resistance": 0.0,
-        "resources_resistance": 0.02,
+        "resources_resistance": 0.05,
         "people_resistance": 0.02
      	}
 	}
@@ -30,7 +30,7 @@
 	    "spirituality": 0.0,
 	    "patience": 0.0,
 	    "agility": 0.0,	    
-        "food_resistance": 0.02,
+        "food_resistance": 0.1,
         "resources_resistance": 0.0,
         "people_resistance": 0.0
      	}
@@ -46,7 +46,7 @@
 	 "abilities": {
 	    "intelligence": 0.0,
 	    "strength": 0.0,
-	    "spirituality": 0.03,
+	    "spirituality": 0.07,
 	    "patience": 0.0,
 	    "agility": 0.0,	    
         "food_resistance": 0.0,

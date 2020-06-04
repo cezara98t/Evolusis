@@ -3,7 +3,7 @@
 	text:"Îngrijește răniții",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.15,
+	requested_ability_percentage:0.45,
 	affected_food:0,
 	affected_resources:0,
 	affected_people:10000,
@@ -13,7 +13,7 @@
 	lose_people:-1000,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.05,
+	    "intelligence": 0.02,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.0,
@@ -38,9 +38,9 @@
 	lose_people:0,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.01,
+	    "intelligence": 0.0,
 	    "strength": 0.0,
-	    "spirituality": 0.01,
+	    "spirituality": 0.1,
 	    "patience": 0.0,
 	    "agility": 0.0,	    
         "food_resistance": 0.0,
@@ -53,7 +53,7 @@
 	text:"Descoperă anatomia",
 	subtext:"",
 	requested_ability:"intelligence",
-	requested_ability_percentage:0.25,
+	requested_ability_percentage:0.55,
 	affected_food:0,
 	affected_resources:0,
 	affected_people:20000,
@@ -78,7 +78,7 @@
 	text:"Produ bandaje pentru răniți",
 	subtext:"",
 	requested_ability:"patience",
-	requested_ability_percentage:0.3,
+	requested_ability_percentage:0.4,
 	affected_food:0,
 	affected_resources:100,
 	affected_people:1000,
@@ -88,7 +88,7 @@
 	lose_people:-200,
 	affected_chromozome:{
 	  "abilities": {
-	    "intelligence": 0.01,
+	    "intelligence": 0.005,
 	    "strength": 0.0,
 	    "spirituality": 0.0,
 	    "patience": 0.01,

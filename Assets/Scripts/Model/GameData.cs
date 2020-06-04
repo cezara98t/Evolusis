@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -17,12 +18,10 @@ class GameData
 
     public static int currentMainPanelIndex = 0;
 
-    public static int population_size = 3000000;
+    public static BigInteger population_size = 3000000;
     public static int resources = 0;
     public static int food = 0;
     public static int energy = 20;
-
-    public static int[] factors = new int[] { 1,2,3,4,5,6,7,1000 };
 
     public static Chromozome population_abilities = new Chromozome();
 
@@ -43,7 +42,7 @@ class GameData
     }
     public static void saveGame()
     {
-        PlayerPrefs.SetInt("population_size", population_size);
+        PlayerPrefs.SetString("population_size", population_size.ToString());
         PlayerPrefs.SetInt("resources", resources);
         PlayerPrefs.SetInt("food", food);
         PlayerPrefs.SetInt("energy", energy);
@@ -53,7 +52,7 @@ class GameData
 
     public static void loadGame()
     {
-        population_size = PlayerPrefs.GetInt("population_size");
+        population_size = BigInteger.Parse(PlayerPrefs.GetString("population_size"));
         //cand se deschide pentru prima data jocul
         if (population_size == 0) population_size = 3000000;
         resources = PlayerPrefs.GetInt("resources");
@@ -81,6 +80,12 @@ class GameData
     public static string getGameAchv()
     {
         string imageName = "Image (7)"; //novice, daca nu intra in nici un if
+
+        if (population_abilities.calculateFitness() == 1)      // daca sunt maximizate toate, nu se va da medalie in parte pentru fiecare
+        {
+            imageName = "Image (6)";       
+            goto FoundNew;
+        }
 
         if (population_abilities.abilities["strength"] == 1)
         {
@@ -122,13 +127,6 @@ class GameData
             population_abilities.abilities["people_resistance"] == 1)
         {
             imageName = "Image (5)";
-            if (achievements[imageName] == 0)
-                goto FoundNew;
-        }
-
-        if (population_abilities.calculateFitness() == 1)
-        {
-            imageName = "Image (6)";
             if (achievements[imageName] == 0)
                 goto FoundNew;
         }

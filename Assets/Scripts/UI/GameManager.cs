@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
             tutorialPanel.SetActive(true);
             GameData.initAchv();
         }
+       //GameData.initAchv();
         loadGame();
         info_status_menu.text = "";
         LoadText.readJson();
@@ -48,7 +49,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        lifeInfo.transform.Find("population").GetComponent<Text>().text = convertWithDot(GameData.population_size);
+        lifeInfo.transform.Find("population").GetComponent<Text>().text = GameData.population_size.ToString("#,#").Replace(",",".");
         lifeInfo.transform.Find("food").GetComponent<Text>().text = convertWithDot(GameData.food);
         lifeInfo.transform.Find("resources").GetComponent<Text>().text = convertWithDot(GameData.resources);        
     }
