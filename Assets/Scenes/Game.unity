@@ -11991,7 +11991,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Infroma\u021Bii"
+  m_Text: "Informa\u021Bii"
 --- !u!222 &710924744
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16600,8 +16600,8 @@ MonoBehaviour:
     c\u0103 ai grij\u0103 pe ce le consumi. Po\u021Bi alege s\u0103 v\xE2nezi de 9
     ori mamu\u021Bi \u0219i s\u0103 construie\u0219ti de 11 ori corturi, alegerea
     este a ta.\r\n\r\nDac\u0103 o activitate nu se execut\u0103 cu succes (apare un
-    panou de alera), nu \xEE\u021Bi face griji! Cu c\xE2t \xEEncerci de mai multe
-    ori, cu at\xE2t oamenii se descurc\u0103 mai bine s\u0103 execute ac\u021Biunea."
+    panou de alert\u0103), nu \xEE\u021Bi face griji! Cu c\xE2t \xEEncerci de mai
+    multe ori, cu at\xE2t oamenii se descurc\u0103 mai bine s\u0103 execute ac\u021Biunea."
 --- !u!222 &923488440
 CanvasRenderer:
   m_ObjectHideFlags: 0
