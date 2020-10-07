@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
             tutorialPanel.SetActive(true);
             GameData.initAchv();
         }
-       //GameData.initAchv();
+       // GameData.initAchv();
         loadGame();
         info_status_menu.text = "";
         LoadText.readJson();
@@ -158,6 +158,7 @@ public class GameManager : MonoBehaviour
 
         info_status_menu.gameObject.SetActive(true);
         info_status_menu.text = "Joc încărcat!";
+        GameData.showedAchv = false;
     }
 
     public void newGame()
@@ -177,6 +178,8 @@ public class GameManager : MonoBehaviour
 
         info_status_menu.gameObject.SetActive(true);
         info_status_menu.text = "Joc nou!";
+        GameData.showedAchv = false;
+
     }
 
 

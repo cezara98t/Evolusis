@@ -7,39 +7,41 @@ public class AchievementsManager : MonoBehaviour
 {
     [SerializeField] private List<Image> achievements;
     [SerializeField] private Image achv_of_game;
-
-    private void Start()
+    private void Update()
     {
-        achv_of_game.sprite=getAchvImage().sprite;
-        foreach (Image img in achievements)
+        if (gameObject.activeSelf && GameData.showedAchv==false)
         {
-            if (GameData.achievements[img.name] == 0)
+            GameData.showedAchv = true;
+            achv_of_game.sprite = getAchvImage().sprite;
+            foreach (Image img in achievements)
             {
-                Color old = img.color;
-                old.r = 0;
-                old.g = 0;
-                old.b = 0;
-                img.color = old;
-            }
-            else
-            {
-                Color old = img.color;
-                old.r = 255;
-                old.g = 255;
-                old.b = 255;
-                img.color = old;
+                if (GameData.achievements[img.name] == 0) // daca medalia nu a fost primita se va afisa neagra complet
+                {
+                    Color old = img.color;
+                    old.r = 0;
+                    old.g = 0;
+                    old.b = 0;
+                    img.color = old;
+                }
+                else
+                {
+                    Color old = img.color;
+                    old.r = 255;
+                    old.g = 255;
+                    old.b = 255;
+                    img.color = old;
 
+                }
             }
         }
-
     }
 
-    private Image getAchvImage()
+    private Image getAchvImage() // retuneaza medalia (Image-ul din Unity)
     {
         string nameOfAchv = GameData.getGameAchv();
-        foreach (Image img in achievements)
+        foreach (Image img in achievements)     // cauta imaginea din Unity a carui nume este cel returnat de functia din GameData
             if (img.name.Equals(nameOfAchv))
                 return img;
-        return achievements[0];
+        return achievements[7]; // novice
     }
 }

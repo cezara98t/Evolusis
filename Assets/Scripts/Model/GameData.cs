@@ -10,6 +10,7 @@ using UnityEngine.UI;
 
 class GameData
 {
+    //panoul principal actual
     public static GameObject mainPanel;
     public static GameObject currentJobPanel;
 
@@ -22,24 +23,30 @@ class GameData
     public static int resources = 0;
     public static int food = 0;
     public static int energy = 20;
+    public static bool showedAchv = false;
 
+    //cromozomul populatiei
     public static Chromozome population_abilities = new Chromozome();
 
     public static Dictionary<string, int> achievements;
     
-
+    //initializeaza toata medaliile cu 0 (nu a fost primita nici una)
     public static void initAchv()
     {
         achievements = new Dictionary<string, int> { { "Image", 0 }, { "Image (1)", 0 }, { "Image (2)", 0 }, { "Image (3)", 0 }, { "Image (4)", 0 }, { "Image (5)", 0 }, { "Image (6)", 0 }, { "Image (7)", 0 } };
         PlayerPrefs.SetString("achievements", JsonConvert.SerializeObject(achievements));
     }
 
+    // la inceputul unui nivel nou, energia revine la valoare initiala maxima
     public static void restoreEnergy() { energy = 20; }
 
+    // daca e prima data cand utilizatorul deschide jocul returneaza 0, 1 altfel, 0 e valoare initiala din playerprefs
     public static int getFirstTime()
     {
         return PlayerPrefs.GetInt("first_time");
     }
+    
+    //salveaza in playerprefs toate datele importante ale unui sesiuni de joc
     public static void saveGame()
     {
         PlayerPrefs.SetString("population_size", population_size.ToString());
@@ -50,6 +57,7 @@ class GameData
         PlayerPrefs.SetString("abilities", JsonConvert.SerializeObject(population_abilities));
     }
 
+    //incarca din playerprefs toate datele importante ale unui sesiuni de joc
     public static void loadGame()
     {
         population_size = BigInteger.Parse(PlayerPrefs.GetString("population_size"));
@@ -64,6 +72,7 @@ class GameData
 
     }
 
+    // reinitializeaza datele importante ale unei sesiuni de joc
     public static void newGame()
     {
         PlayerPrefs.SetInt("first_time", 1);    
@@ -76,7 +85,7 @@ class GameData
     }
 
 
-
+    // in functie de abilitatile dezvoltate la maxim, retuneaza o medalie
     public static string getGameAchv()
     {
         string imageName = "Image (7)"; //novice, daca nu intra in nici un if

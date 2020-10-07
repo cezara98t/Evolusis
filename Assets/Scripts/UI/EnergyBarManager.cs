@@ -35,7 +35,7 @@ public class EnergyBarManager : MonoBehaviour
         energy_status_text.text = GameData.energy + "/20";
     }
 
-
+    // cand se schimba numarul de unitati de energie (inceput de nivel, consum energie)
     public  void refreshEnergy()
     {
         //cele care se vad

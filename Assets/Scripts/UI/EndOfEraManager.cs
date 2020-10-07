@@ -11,7 +11,7 @@ public class EndOfEraManager : MonoBehaviour
 
     public GameObject disastersPanel;
     public GameObject prefab_disaster;
-    private IRepository<List<DisasterButtonData>> disastersRepository;
+    private IRepository<List<ButtonData>> disastersRepository;
     private IRepository<List<ButtonData>> improvementsRepository;
     public GameObject improvementsPanel;
     public GameObject prefab_improvement;
@@ -46,7 +46,7 @@ public class EndOfEraManager : MonoBehaviour
          {
              GameObject.Destroy(child.gameObject);
          }
-        foreach (DisasterButtonData disaster in disastersRepository.buttons)
+        foreach (ButtonData disaster in disastersRepository.buttons)
         {
             GameObject go = Instantiate(prefab_disaster, new Vector3(0, 0, 0), Quaternion.identity);
             go.GetComponentsInChildren<Text>()[0].text = disaster.text;
@@ -56,21 +56,21 @@ public class EndOfEraManager : MonoBehaviour
         }
     }
 
-    private void doDisaster(DisasterButtonData disaster)
+    private void doDisaster(ButtonData disaster)
     {
         int factor = GameData.currentMainPanelIndex;
 
-        if (disaster.min_food_resistance > GameData.population_abilities.abilities["food_resistance"])
+        if (GameData.population_abilities.abilities["food_resistance"]<1)
         {
             GameData.food += disaster.affected_food * factor; 
             if (GameData.food < 0) GameData.food = 0;
         }
-        if (disaster.min_resources_resistance > GameData.population_abilities.abilities["resources_resistance"])
+        if (GameData.population_abilities.abilities["resources_resistance"]<1)
         {
             GameData.resources += disaster.affected_resources * factor;
             if (GameData.resources < 0) GameData.resources = 0;
         }
-        if (disaster.min_people_resistance > GameData.population_abilities.abilities["people_resistance"])
+        if (GameData.population_abilities.abilities["people_resistance"]<1)
         {
             GameData.population_size += disaster.affected_people * factor;
             if (GameData.population_size < 0) GameData.population_size = 0;
@@ -111,12 +111,6 @@ public class EndOfEraManager : MonoBehaviour
         improvementsPanel.SetActive(false);
         endOfEraPanel.SetActive(false);
         SoundManager.Instance.playMainSound();
-
-
-      /*  foreach (KeyValuePair<string,double> s in GameData.population_abilities.abilities)
-        {
-            Debug.Log(s.Key+" "+s.Value+"\n");
-        }*/
     }
 
 }

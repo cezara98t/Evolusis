@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class ActionButtonsManager : MonoBehaviour
 {
-
+    //prefab-ul butonului
     public GameObject prefab;
     public GameObject containter;
     public GameObject error_panel;
@@ -18,11 +18,13 @@ public class ActionButtonsManager : MonoBehaviour
  
     void Start()
     {
+        if(actionButtonRepository==null)
         actionButtonRepository = new ActionButtonRepository();
+        if(validator==null)
         validator = new ActionButtonValidator();
     }
 
-    public void readButtons()
+    public void readButtons()   // apelat la apasarea butonului info_button din fiecare scena de activitate
     {
         if (GameData.currentJobPanel != null)
         {
@@ -50,8 +52,8 @@ public class ActionButtonsManager : MonoBehaviour
 
     private void onClick(ActionButtonData button, GameObject go)
     {
-        string validated = validator.validate(button);
-        if (String.IsNullOrEmpty(validated))
+        string validated = validator.validate(button); // verifica daca exista destule resurse pentru a efectua actiunea
+        if (String.IsNullOrEmpty(validated)) // string gol => nu a fost nici o eroare, se poate executa
         {
             EnergyBarManager.Instance.consumeEnergy();
             double requested_ability_percentage = GameData.population_abilities.abilities[button.requested_ability];

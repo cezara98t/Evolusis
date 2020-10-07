@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-public class DisastersRepository : IRepository<List<DisasterButtonData>>
+public class DisastersRepository : IRepository<List<ButtonData>>
 {
-    public List<DisasterButtonData> buttons { get; set; }
+    public List<ButtonData> buttons { get; set; }
 
 
     public DisastersRepository()
@@ -19,6 +19,6 @@ public class DisastersRepository : IRepository<List<DisasterButtonData>>
     {
         string filename = "disasters";
         TextAsset t = Resources.Load<UnityEngine.TextAsset>("Jsons/"+filename);
-        buttons = JsonConvert.DeserializeObject<List<DisasterButtonData>>(t.ToString());
+        buttons = JsonConvert.DeserializeObject<List<ButtonData>>(t.ToString());
     }
 }
